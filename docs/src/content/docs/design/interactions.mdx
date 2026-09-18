@@ -1,0 +1,35 @@
+---
+title: Physical Interactions Matrix
+description: Row-to-column interaction matrix between physical elements.
+---
+import inter from '../../../data/interactions.json';
+import ClientJs from '../../../components/ClientJs.astro';
+
+Source: `Interactions` sheet. Hover a row or column header to highlight the full
+row/column. Use the search to narrow elements or relation text.
+
+{inter.note}
+
+<div class="eps-toolbar">
+  <input type="search" id="mx-search" placeholder="Filter elements or relations…" aria-label="Filter matrix" />
+  <span class="count" id="mx-count"></span>
+</div>
+
+<div style="overflow-x:auto">
+<table id="mx-table" class="eps-table eps-matrix">
+<thead>
+<tr><th>Group</th><th>From ↓ / To →</th>{inter.columns.map((c) => <th data-col={c}>{c}</th>)}</tr>
+</thead>
+<tbody>
+{inter.rows.map((r) => (
+  <tr data-row={r.element}>
+    <td>{r.group}</td>
+    <th data-rowhead={r.element}>{r.element}</th>
+    {r.cells.map((cell) => <td data-col-cell={cell.to}>{cell.relation === '-' ? <span class="badge na">—</span> : cell.relation}</td>)}
+  </tr>
+))}
+</tbody>
+</table>
+</div>
+
+<ClientJs src="js/matrix.js" />

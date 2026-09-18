@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Build output — regenerate with `npm run build`, deploy `dist/` from CI
+dist/
+.astro/
+
+# Env (base path / site URL are passed at build time, never committed)
+.env
+.env.*
+!.env.example

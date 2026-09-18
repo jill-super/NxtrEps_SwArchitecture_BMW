@@ -1,0 +1,240 @@
+[
+  {
+    "id": "P1",
+    "name": "Handwheel torque",
+    "input": "Handwheel torque data from the sensor",
+    "description": "The sensed handwheel torque data is processed and converted to engineering units",
+    "output": "Processed handwheel torque data"
+  },
+  {
+    "id": "P2",
+    "name": "Pinion angle",
+    "input": "Handwheel position data; Motor angle data",
+    "description": "The data is processed and converted to engineering units to provide the pinion angle",
+    "output": "Pinion angle data"
+  },
+  {
+    "id": "P3",
+    "name": "Motor angle",
+    "input": "Data from the motor angle sensor (Part of motor sensong sub-system)",
+    "description": "The data is processed and converted into engineering units to provide the motor angle",
+    "output": "Motor angle data"
+  },
+  {
+    "id": "P4",
+    "name": "Motor velocity",
+    "input": "Data from the motor angle sensor (Part of motor sensong sub-system)",
+    "description": "Processing of the data to estimate the motor velocity",
+    "output": "Estimated motor velocity data"
+  },
+  {
+    "id": "P5",
+    "name": "Temperature",
+    "input": "ECU temperature data; Ambient temperature data",
+    "description": "Process the ECU temperature data and the ambient temperature data and provide an estimate for the system temperature",
+    "output": "Estimated system temperature value"
+  },
+  {
+    "id": "P6",
+    "name": "Motor current",
+    "input": "Data from the motor current monitoring component",
+    "description": "Data is processed and converted to corresponding engineering units",
+    "output": "Motor current value"
+  },
+  {
+    "id": "P7",
+    "name": "Vehicle communications",
+    "input": "Data from the vehicle ECU (Vehicle Signals); Data from the steering system (System Signals)",
+    "description": "Communicate with the vehicle ECU. That is send system signals and receive vehicle signals as required",
+    "output": "Two way communication between the system and the vehicle is established"
+  },
+  {
+    "id": "P8",
+    "name": "Supply voltage",
+    "input": "Vehicle power supply",
+    "description": "Receive, distribute and regulate (if required) the vehicle power supply throughout the system where required; Monitor the vehicle power supply and determine the battery voltage, bridge voltage",
+    "output": "Power supply received, distributed and regulated (if necessary) within the system; Battery voltage, bridge voltage"
+  },
+  {
+    "id": "P9",
+    "name": "Calculate torque overlay command",
+    "input": "Handwheel torque data; Pinion angle data; Vehicle signals",
+    "description": "Based on vehicle assist commands and for executing active return feature, calculate a torque overlay command",
+    "output": "Motor torque command overlay; Handwheel torque overlay"
+  },
+  {
+    "id": "P10",
+    "name": "Calculate torque command modifiers",
+    "input": "Handwheel torque data; Pinion angle data; Estimated motor velocity data; Vehicle signals",
+    "description": "Based on the input, determine the forces (external and internal) acting on the steering system which needs to be compensated and calculate modifiers for the torque command to achieve this compensation",
+    "output": "Motor torque command modifier"
+  },
+  {
+    "id": "P11",
+    "name": "Calculate motor torque command limit",
+    "input": "Motor current value; Battery voltage data; Bridge voltage data; Estimated system temperature value",
+    "description": "Check for power supply & system temperature and calculate limits for the motor torque command to protect the system",
+    "output": "Motor torque command limit; Motor torque command scalar"
+  },
+  {
+    "id": "P12",
+    "name": "Calculate motor torque command",
+    "input": "Motor torque command overlay; Handwheel torque overlay; Motor torque command modifier; Motor torque command limit",
+    "description": "From the torque command overlays, modifiers and limits, calculate the motor torque command with the required motor torque value to provide intended assist",
+    "output": "Motor torque command"
+  },
+  {
+    "id": "P13",
+    "name": "Calculate motor voltage command",
+    "input": "Motor torque command",
+    "description": "Interpret the motor torque command in terms of the motor characteristics and come up with a motor voltage command",
+    "output": "Motor voltage command"
+  },
+  {
+    "id": "P14",
+    "name": "Generate motor voltage",
+    "input": "Motor voltage command",
+    "description": "Generate motor voltage as per the motor voltage command",
+    "output": "Motor voltage"
+  },
+  {
+    "id": "P15",
+    "name": "Provide motor torque",
+    "input": "Motor voltage",
+    "description": "Operate the motor, generate torque and provide the generated torque as assistance",
+    "output": "Provided motor torque (Net assist output)"
+  },
+  {
+    "id": "S1",
+    "name": "Calibrations",
+    "input": "-",
+    "description": "-",
+    "output": "-"
+  },
+  {
+    "id": "S2",
+    "name": "Security",
+    "input": "-",
+    "description": "-",
+    "output": "-"
+  },
+  {
+    "id": "S3",
+    "name": "Diagnostics",
+    "input": "-",
+    "description": "Conduct a system level diagnostics to determine the health of the system and in turn help determint the state in which the system should operate",
+    "output": "System health determined"
+  },
+  {
+    "id": "S4",
+    "name": "States and Modes",
+    "input": "-",
+    "description": "The system behaviour is captured as system states and modes",
+    "output": "System states and modes, their transitions and conditions for transitions are defined"
+  },
+  {
+    "id": "S5",
+    "name": "Manufacturing services",
+    "input": "-",
+    "description": "-",
+    "output": "-"
+  },
+  {
+    "id": "S6",
+    "name": "Diagnostic services",
+    "input": "-",
+    "description": "-",
+    "output": "-"
+  },
+  {
+    "id": "P1.1",
+    "name": "Handwheel torque measurement",
+    "input": "Handwheel torque signal from the driver sensor",
+    "description": "The handwheel torque signal is received and measured by the electric hardware",
+    "output": "Received and measured handwheel torque signal"
+  },
+  {
+    "id": "P1.2",
+    "name": "Handwheel torque calculation and diagnostics",
+    "input": "Received and measured handwheel torque signal",
+    "description": "The handwheel torque signal is converted to engineering units and it is checked for its validity",
+    "output": "Handwheel torque data; Handwheel torque data validity information"
+  },
+  {
+    "id": "P2.1",
+    "name": "Pinion angle measurement",
+    "input": "Handwheel position signal from the handwheel position sensor",
+    "description": "The pinion angle signal is received and measured by the electric hardware",
+    "output": "Received and measured pinion angle signal"
+  },
+  {
+    "id": "P2.2",
+    "name": "Pinion angle calculation",
+    "input": "Received and measured pinion angle signal",
+    "description": "The pinion angle signal is converted to engineering units",
+    "output": "Pinion angle data"
+  },
+  {
+    "id": "P3.1",
+    "name": "Sense motor angle",
+    "input": "-",
+    "description": "Motor angle is sensed by means of a motor angle sensor",
+    "output": "Motor angle signal; Motor turns count"
+  },
+  {
+    "id": "P3.2",
+    "name": "Motor angle measurement",
+    "input": "Motor angle signal; Motor turns count",
+    "description": "The motor angle signal is received and measured by the electric hardware",
+    "output": "Received and measured motor angle signal"
+  },
+  {
+    "id": "P3.3",
+    "name": "Motor angle calculations and diagnostics",
+    "input": "Received and measured motor angle signal",
+    "description": "The motor angle signal is converted to engineering units and it is checked for its validity",
+    "output": "Motor angle data; Motor angle data validity information"
+  },
+  {
+    "id": "P4.1",
+    "name": "Provide motor velocity estimation",
+    "input": "Motor angle data",
+    "description": "The motor velocity is estimated by the rate of change of the sensed, measured and calculated motor angle data",
+    "output": "Motor velocity estimation data"
+  },
+  {
+    "id": "P5.1",
+    "name": "Temperature measurement",
+    "input": "Temperature of the control module board",
+    "description": "The temperature of the control module board is measured by means of a thermistor; The measured temperature value is calculated to come up with the ECU temperature data",
+    "output": "ECU temperature"
+  },
+  {
+    "id": "P5.2",
+    "name": "Temperature calculation",
+    "input": "ECU temperature",
+    "description": "The motor temperature and the mechanical actuator temperature are estimated from the measured and calculated ECU temperature data",
+    "output": "Mechanical actuator temperature estimation; Motor temperature estimation"
+  },
+  {
+    "id": "P6.1",
+    "name": "Motor current measurement",
+    "input": "-",
+    "description": "The motor current is meaured by means of a measuring component in the electric hardware",
+    "output": "Measured motor current signal"
+  },
+  {
+    "id": "P6.2",
+    "name": "Motor current arbitration and diagnostics",
+    "input": "Measured motor current signal",
+    "description": "The measured motor current signal is converted to engineering units and it is checked for its validity",
+    "output": "Motor current data; Motor current data validity information"
+  },
+  {
+    "id": "P15.1",
+    "name": "Generate motor torque",
+    "input": "Generated motor voltage",
+    "description": "The electric motor generates the motor torque based on the voltage supplied to it",
+    "output": "Generated motor torque which acts as the assistance to the driver's steering effort"
+  }
+]

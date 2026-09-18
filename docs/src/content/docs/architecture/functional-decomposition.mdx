@@ -1,0 +1,23 @@
+---
+title: Functional Decomposition
+description: Level 1 to Level 2 function breakdown (P1.1 … P15.1).
+---
+import decomp from '../../../data/functional-decomposition.json';
+import FilterBar from '../../../components/FilterBar.astro';
+
+Source: `Functional Decomposition View` sheet. Click a Level-1 function to jump to
+its description.
+
+<FilterBar tableId="decomp-table" placeholder="Filter functions…" />
+
+<table id="decomp-table" class="eps-table">
+<thead><tr><th>Level 1</th><th>Level 2</th></tr></thead>
+<tbody>
+{decomp.map((d) => (
+  <tr>
+    <td><a class="badge fn" href={`../design/function-descriptions/#${d.level1.split('.')[0].split(' ')[0]}`}>{d.level1}</a></td>
+    <td>{d.level2 ? <a href={`../design/function-descriptions/#${d.level2.split(' ')[0]}`}>{d.level2}</a> : <span class="badge na">—</span>}</td>
+  </tr>
+))}
+</tbody>
+</table>

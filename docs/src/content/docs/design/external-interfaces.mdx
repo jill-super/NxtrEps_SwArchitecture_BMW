@@ -1,0 +1,34 @@
+---
+title: External Interfaces
+description: Vehicle ECU / battery interfaces with direction, mode and medium.
+---
+import ext from '../../../data/external-interfaces.json';
+import FilterBar from '../../../components/FilterBar.astro';
+
+Source: `Identified External Interfaces` sheet. Control-module view:
+receives vehicle parameters/commands/power, transmits system data/health.
+
+<FilterBar
+  tableId="ext-table"
+  placeholder="Filter signals, endpoints…"
+/>
+
+<table id="ext-table" class="eps-table">
+<thead><tr><th>Group</th><th>Signal</th><th>From</th><th>To</th><th>Mode</th><th>Medium</th><th>Direction</th></tr></thead>
+<tbody>
+{ext.map((e) => {
+  const dir = e.to === 'Control Module' ? 'in' : e.from === 'Control Module' ? 'out' : '';
+  return (
+    <tr data-group={e.group} data-mode={e.mode}>
+      <td>{e.group}</td>
+      <td>{e.signal}</td>
+      <td>{e.from}</td>
+      <td>{e.to}</td>
+      <td>{e.mode}</td>
+      <td>{e.medium}</td>
+      <td>{dir === 'in' ? '→ in' : dir === 'out' ? '← out' : '—'}</td>
+    </tr>
+  );
+})}
+</tbody>
+</table>

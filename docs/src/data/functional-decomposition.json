@@ -1,0 +1,86 @@
+[
+  {
+    "level1": "P1. Handwheel torque",
+    "level2": "P1.1 Handwheel torque measurement"
+  },
+  {
+    "level1": "P2. Pinion angle",
+    "level2": "P2.1 Pinion angle measurement"
+  },
+  {
+    "level1": "P3. Motor angle",
+    "level2": "P3.1 Sense motor angle"
+  },
+  {
+    "level1": "P4. Motor velocity",
+    "level2": "P4.1 Provide motor velocity estimation"
+  },
+  {
+    "level1": "P5. Temperature",
+    "level2": "P5.1 Temperature measurement"
+  },
+  {
+    "level1": "P6. Motor current",
+    "level2": "P6.1 Motor current measurement"
+  },
+  {
+    "level1": "P7. Vehicle communications",
+    "level2": ""
+  },
+  {
+    "level1": "P8. Supply voltage",
+    "level2": ""
+  },
+  {
+    "level1": "P9. Calculate torque overlay command",
+    "level2": ""
+  },
+  {
+    "level1": "P10. Calculate torque command modifiers",
+    "level2": ""
+  },
+  {
+    "level1": "P11. Calculate motor torque command limit",
+    "level2": ""
+  },
+  {
+    "level1": "P12. Calculate motor torque command",
+    "level2": ""
+  },
+  {
+    "level1": "P13. Calculate motor voltage command",
+    "level2": ""
+  },
+  {
+    "level1": "P14. Generate motor voltage",
+    "level2": ""
+  },
+  {
+    "level1": "P15. Provide motor torque",
+    "level2": "P15.1 Generate motor torque"
+  },
+  {
+    "level1": "S1. Calibrations",
+    "level2": ""
+  },
+  {
+    "level1": "S2. Diagnostics",
+    "level2": ""
+  },
+  {
+    "level1": "S3. Manufacturing services",
+    "level2": ""
+  },
+  {
+    "level1": "S4. Security",
+    "level2": ""
+  },
+  {
+    "level1": "S5. States and Modes",
+    "level2": ""
+  },
+  {
+    "level1": "S6. Diagnostic services",
+    "level2": ""
+  }
+]

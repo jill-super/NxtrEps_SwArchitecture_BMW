@@ -1,0 +1,34 @@
+---
+title: Original Diagrams
+description: All embedded workbook drawings converted to web-viewable SVG/PNG.
+---
+import Diagram from '../../components/Diagram.astro';
+import diagrams from '../../data/diagrams.json';
+
+{diagrams.note} Click any diagram to open it full-size.
+
+## Level 1 — functional architecture
+
+<Diagram file="image8.svg" fallback="image8.png" alt="Level 1 diagram part 1" caption="Level 1, part 1" />
+<Diagram file="image9.svg" fallback="image9.png" alt="Level 1 diagram part 2" caption="Level 1, part 2" />
+
+## Level 2 — fragments
+
+<Diagram file="image10.svg" fallback="image10.png" alt="Level 2 fragment 1" caption="Level 2 fragment 1" />
+<Diagram file="image11.svg" fallback="image11.png" alt="Level 2 fragment 2" caption="Level 2 fragment 2" />
+<Diagram file="image12.svg" fallback="image12.png" alt="Level 2 fragment 3" caption="Level 2 fragment 3" />
+<Diagram file="image13.svg" fallback="image13.png" alt="Level 2 fragment 4" caption="Level 2 fragment 4" />
+<Diagram file="image14.svg" fallback="image14.png" alt="Level 2 fragment 5" caption="Level 2 fragment 5" />
+
+## Safety & states
+
+<Diagram file="image15.svg" fallback="image15.png" alt="Safety view diagram" caption="Safety view" />
+<Diagram file="image16.svg" fallback="image16.png" alt="System states diagram" caption="System states" />
+
+## Port symbols
+
+Small port/direction symbols used inside the Level-1 drawing:
+
+<div class="eps-grid cols-4">
+  {(diagrams.ports.map((p) => <Diagram file={p} alt={p} caption={p} size="natural" />))}
+</div>

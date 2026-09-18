@@ -1,0 +1,1077 @@
+{
+  "kpps": [
+    "Provided tie rod force",
+    "Level of comfort (Measure of the number of 'features' the system can provide and the measure of how well these features are performed)",
+    "Driver's Steering Effort",
+    "Ability of the system to operate within the prescribed operating conditions",
+    "Safety",
+    "Affordability",
+    "Maintainability",
+    "Robustness",
+    "Modularity"
+  ],
+  "criteria": [
+    {
+      "no": "1",
+      "kpp": "Provided tie rod force",
+      "related": "Net assit output",
+      "selection": "Net assist output >= Required tie rod force",
+      "weightage": "1"
+    },
+    {
+      "no": "2",
+      "kpp": "Level of comfort (Measure of the number of 'features' the system can provide and the the measure of how well these features are performed)",
+      "related": "Torque sensor Resolution;\nTorque sensor accuracy;\nHW Posotion sensor comfort (based on its presence in the system and helping in features like active return);\nHW position sensor resolution;\nHW position sensor accuracy;\nComfort based on the type of inverter chosen and the type of motor chosen",
+      "selection": "Torque sensor resolution within range; \nTorque sensor accuracy is better than desirable sensor accuracy;\nHW position sensor's presence which makes features like active return possible;\nHW position sensor resolution within range;\nHW position sensor accuracy is better than desirable sensor accuracy;\nThe inverter and the motor's design space which lets them perform required customer features",
+      "weightage": "1"
+    },
+    {
+      "no": "3",
+      "kpp": "Driver's Steering Effort",
+      "related": "Net assist outout;",
+      "selection": "Required tie rod force - Net assist output < Desired driver steering torque",
+      "weightage": "1"
+    },
+    {
+      "no": "4",
+      "kpp": "Ability of the system to operate within the prescribed operating conditions",
+      "related": "Operating conditions of -\nTorque sensor; HW position sensor; Motor position sensor; Motor; Microcontroller; Inverter",
+      "selection": "Operating conditions of the components listed satisfies the required system operating conditions",
+      "weightage": "1"
+    },
+    {
+      "no": "5",
+      "kpp": "Safety",
+      "related": "Torque sensor - Level of Redundancy; \nTorque sensor FIT rate;\nHW position sensor - Level of Redundancy;\nHW position sensor FIT rate; \nMotor position sensor -  Level of Redundancy;\nMotor position sensor FIT Rate;\nElectric motor FIT rate;\nMicrocontroller FIT rate;\nECU - Level of Redundancy;\nInverter FIT rate;\nInverter Level of Redundancy",
+      "selection": "Meets FIT rate and Level of Redundancy as mentioned in the safety requirements",
+      "weightage": "2"
+    },
+    {
+      "no": "6",
+      "kpp": "Affordability",
+      "related": "Impact of system cost in choosing a particular component (Based on its type and count)",
+      "selection": "Impact of cost <= 0%",
+      "weightage": "1"
+    },
+    {
+      "no": "7",
+      "kpp": "Maintainability",
+      "related": "Ease of replacement of - \nTorque sensor; HW position sensor; Motor position sensor; Motor; Hardware board which has the ECU and the Inverter and other peripherals",
+      "selection": "Ease of replacement is high",
+      "weightage": "1"
+    },
+    {
+      "no": "8",
+      "kpp": "Robustness",
+      "related": "Torque sensor - Level of Redundancy; \nTorque sensor FIT rate;\nHW position sensor - Level of Redundancy;\nHW position sensor FIT rate; \nMotor position sensor -  Level of Redundancy;\nMotor position sensor FIT Rate;\nElectric motor FIT rate;\nMicrocontroller FIT rate;\nECU - Level of Redundancy;\nInverter FIT rate;\nInverter Level of Redundancy",
+      "selection": "Meets FIT rate and level of redundancy requirements in terms of robustness of the system",
+      "weightage": "1"
+    },
+    {
+      "no": "9",
+      "kpp": "Modularity",
+      "related": "Ease of replacement of - \nTorque sensor; HW position sensor; Motor position sensor; Motor; Hardware board which has the ECU and the Inverter and other peripherals",
+      "selection": "Ease of replacement is high",
+      "weightage": "1"
+    }
+  ],
+  "alternatives": [
+    {
+      "alt": 1,
+      "rows": [
+        {
+          "no": "1",
+          "kpp": "Provided tie rod force",
+          "criterion": "Net assist output >= Provided tie rod force",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "2",
+          "kpp": "Level of comfort",
+          "criterion": "Torque sensor resolution within required range",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.5833333333333334",
+          "weightage": "1",
+          "weighted": "0.5833333333333334"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Torque sensor accuracy is better than desirable sensor accuracy",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor's presence which makes features like active return possible",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor resolution within range",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor accuracy is better than desirable sensor accuracy",
+          "status": "",
+          "individual": "0",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "The inverter and the motor's design space which lets them perform required customer features",
+          "status": "",
+          "individual": "0",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "3",
+          "kpp": "Driver steering effort",
+          "criterion": "Required tie rod force - Net assist output < Desired driver steering torque",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "4",
+          "kpp": "Ability of the system to operate within the prescribed operating conditions",
+          "criterion": "Operating conditions of the torque sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.9285714285714286",
+          "weightage": "1",
+          "weighted": "0.9285714285714286"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the HW position sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the motor position sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the motor assembly satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the microcontroller satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the inverter satisfies the required system operating conditions",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "5",
+          "kpp": "Safety",
+          "criterion": "FIT rate and Level of Redundancy of torque sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "2",
+          "weighted": "1"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of HW position sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor position sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor assembly meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of microcontroller meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of ECU meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of inverter meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "6",
+          "kpp": "Affordability",
+          "criterion": "Torque sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Motor position sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Motor assembly - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Microcontroller - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "ECU - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Inverter - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "7",
+          "kpp": "Maintainability",
+          "criterion": "Ease of replacement of torque sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "1",
+          "weighted": "0.5"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of HW position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor assembly",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of microcontroller",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of ECU",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of inverter",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "8",
+          "kpp": "Robustness",
+          "criterion": "FIT rate and Level of Redundancy of torque sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.9285714285714286",
+          "weightage": "1",
+          "weighted": "0.9285714285714286"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of HW position sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor position sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor assembly meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of microcontroller meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of ECU meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of inverter meets robustness requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "9",
+          "kpp": "Modularity",
+          "criterion": "Ease of replacement of torque sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "1",
+          "weighted": "0.5"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of HW position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor assembly",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of microcontroller",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of ECU",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of inverter",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        }
+      ],
+      "score": "7.440476190476191"
+    },
+    {
+      "alt": 2,
+      "rows": [
+        {
+          "no": "1",
+          "kpp": "Provided tie rod force",
+          "criterion": "Net assist output >= Provided tie rod force",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "2",
+          "kpp": "Level of comfort",
+          "criterion": "Torque sensor resolution within required range",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.5833333333333334",
+          "weightage": "1",
+          "weighted": "0.5833333333333334"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Torque sensor accuracy is better than desirable sensor accuracy",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor's presence which makes features like active return possible",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor resolution within range",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor accuracy is better than desirable sensor accuracy",
+          "status": "",
+          "individual": "0",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "The inverter and the motor's design space which lets them perform required customer features",
+          "status": "",
+          "individual": "0",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "3",
+          "kpp": "Driver steering effort",
+          "criterion": "Required tie rod force - Net assist output < Desired driver steering torque",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "4",
+          "kpp": "Ability of the system to operate within the prescribed operating conditions",
+          "criterion": "Operating conditions of the torque sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.9285714285714286",
+          "weightage": "1",
+          "weighted": "0.9285714285714286"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the HW position sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the motor position sensor satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the motor assembly satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the microcontroller satisfies the required system operating conditions",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Operating conditions of the inverter satisfies the required system operating conditions",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "5",
+          "kpp": "Safety",
+          "criterion": "FIT rate and Level of Redundancy of torque sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "2",
+          "weighted": "1"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of HW position sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor position sensor meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor assembly meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of microcontroller meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of ECU meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of inverter meets safety requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "6",
+          "kpp": "Affordability",
+          "criterion": "Torque sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "1",
+          "weightage": "1",
+          "weighted": "1"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "HW position sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Motor position sensor - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Motor assembly - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Microcontroller - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "ECU - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Inverter - Impact on system cost <= 0%",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "7",
+          "kpp": "Maintainability",
+          "criterion": "Ease of replacement of torque sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "1",
+          "weighted": "0.5"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of HW position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor assembly",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of microcontroller",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of ECU",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of inverter",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "8",
+          "kpp": "Robustness",
+          "criterion": "FIT rate and Level of Redundancy of torque sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "0.9285714285714286",
+          "weightage": "1",
+          "weighted": "0.9285714285714286"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of HW position sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor position sensor meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of motor assembly meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of microcontroller meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of ECU meets robustness requirements",
+          "status": "",
+          "individual": "1",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "FIT rate and Level of Redundancy of inverter meets robustness requirements",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "9",
+          "kpp": "Modularity",
+          "criterion": "Ease of replacement of torque sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "0.5",
+          "weightage": "1",
+          "weighted": "0.5"
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of HW position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor position sensor",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of motor assembly",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of microcontroller",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of ECU",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        },
+        {
+          "no": "",
+          "kpp": "",
+          "criterion": "Ease of replacement of inverter",
+          "status": "",
+          "individual": "0.5",
+          "kppScore": "",
+          "weightage": "",
+          "weighted": ""
+        }
+      ],
+      "score": "7.440476190476191"
+    }
+  ],
+  "legend": {
+    "1": "Fully meets selection criteria",
+    "0.5": "Partially meets the selection criteria",
+    "0": "Does not meet the selection criteria"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "code": "MECHANICAL ACTUATOR",
+    "color": "#FFC000"
+  },
+  {
+    "code": "POWERPACK",
+    "color": "#F9CFB5"
+  },
+  {
+    "code": "MOTOR SENSING SUB-SYSTEM",
+    "color": "#00FFFF"
+  },
+  {
+    "code": "MOTOR ASSEMBLY",
+    "color": "#FFFF00"
+  },
+  {
+    "code": "CONTROL MODULE",
+    "color": "#00B0F0"
+  },
+  {
+    "code": "ELECTRONIC HARDWARE",
+    "color": "#D9D9D9"
+  },
+  {
+    "code": "SOFTWARE",
+    "color": "#92D050"
+  }
+]

@@ -1,0 +1,21 @@
+---
+/* Base-URL-aware diagram figure. Works with any BASE_PATH (fork-agnostic). */
+interface Props {
+  file: string;
+  fallback?: string;
+  alt: string;
+  caption?: string;
+  /** 'full' (default): responsive full-width. 'natural': intrinsic small size, centered. */
+  size?: 'full' | 'natural';
+}
+const { file, fallback, alt, caption, size = 'full' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const src = `${base}diagrams/${file}`.replace(/\/+/g, '/');
+const fb = fallback ? `${base}diagrams/${fallback}`.replace(/\/+/g, '/') : undefined;
+---
+<figure class="diagram-frame">
+  <a href={src} target="_blank" rel="noopener">
+    <img src={src} alt={alt} loading="lazy" class={size === 'natural' ? 'diagram-natural' : undefined} onerror={fb ? `this.onerror=null;this.src='${fb}'` : undefined} />
+  </a>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>

@@ -1,0 +1,44 @@
+---
+title: Function Descriptions
+description: Searchable explorer for every P/S function with inputs, behaviour and outputs.
+---
+import funcs from '../../../data/function-descriptions.json';
+import decomp from '../../../data/functional-decomposition.json';
+import safety from '../../../data/safety-view.json';
+import level1 from '../../../data/level-1.json';
+import ClientJs from '../../../components/ClientJs.astro';
+
+Source: `Description` sheet, cross-linked with decomposition, safety allocation and
+Level-1 physical allocation. Use the search box, or click any `P…`/`S…` badge
+site-wide to land on a function card.
+
+<div class="eps-toolbar">
+  <input type="search" id="fn-search" placeholder="Search functions, inputs, outputs…" aria-label="Search functions" />
+  <span class="count" id="fn-count"></span>
+</div>
+
+<div class="eps-grid cols-2" id="fn-grid">
+{funcs.map((f) => {
+  const subs = decomp.filter((d) => d.level1.startsWith(f.id + '.') || d.level1 === f.id || d.level1.startsWith(f.id + ' '));
+  const sub2 = decomp.filter((d) => d.level2.startsWith(f.id));
+  const s = safety.find((x) => x.nomenclature === f.id);
+  const alloc = level1.allocation.filter((a) => a.function.split('.')[0] === f.id);
+  return (
+    <div class="eps-card fn-card" id={f.id} data-search={`${f.id} ${f.name} ${f.input} ${f.description} ${f.output}`.toLowerCase()}>
+      <h3><span class="badge fn">{f.id}</span> {f.name}</h3>
+      <p><strong>Input:</strong> {f.input || '—'}</p>
+      <p>{f.description || '—'}</p>
+      <p><strong>Output:</strong> {f.output || '—'}</p>
+      {(subs.length > 0 || sub2.length > 0) && (
+        <p><strong>Decomposition:</strong>{' '}
+          {subs.map((d) => d.level2).filter(Boolean).join(' · ') || subs.map((d) => d.level1).join(' · ')}
+        </p>
+      )}
+      {s && <p><strong>Safety:</strong> <span class="badge fcn">{s.fsConcept}</span> <span class="kbd-hint">{s.group}</span></p>}
+      {alloc.length > 0 && <p><strong>Allocated to:</strong> {[...new Set(alloc.map((a) => a.element))].join(', ')}</p>}
+    </div>
+  );
+})}
+</div>
+
+<ClientJs src="js/fn-explorer.js" />

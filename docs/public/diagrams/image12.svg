@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 888.94 170.42"
+   version="1.0"
+   width="235.2mm"
+   height="45.09mm"
+   id="svg393"
+   sodipodi:docname="image12.emf"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview395"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs9">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1">
+      <path
+         d="M 552.12628,2.6672767 L 696.15922,2.6672767 L 696.15922,168.03843 L 552.12628,168.03843 z"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath2">
+      <path
+         d="M 205.38031,2.6672767 L 370.75146,2.6672767 L 370.75146,168.03843 L 205.38031,168.03843 z"
+         id="path5" />
+    </clipPath>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <path
+     style="fill:#85ca39;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,0   L 550.79264,1.3336384   L 698.8265,1.3336384   L 698.8265,0   L 550.79264,0   z "
+     id="path11" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,1.3336384   L 550.79264,6.6681918   L 698.8265,6.6681918   L 698.8265,1.3336384   L 550.79264,1.3336384   z "
+     id="path13" />
+  <path
+     style="fill:#91d04f;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,6.6681918   L 550.79264,14.670022   L 698.8265,14.670022   L 698.8265,6.6681918   L 550.79264,6.6681918   z "
+     id="path15" />
+  <path
+     style="fill:#91d04e;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,14.670022   L 550.79264,17.337299   L 698.8265,17.337299   L 698.8265,14.670022   L 550.79264,14.670022   z "
+     id="path17" />
+  <path
+     style="fill:#90cf4e;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,17.337299   L 550.79264,20.004575   L 698.8265,20.004575   L 698.8265,17.337299   L 550.79264,17.337299   z "
+     id="path19" />
+  <path
+     style="fill:#90cf4d;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,20.004575   L 550.79264,28.006405   L 698.8265,28.006405   L 698.8265,20.004575   L 550.79264,20.004575   z "
+     id="path21" />
+  <path
+     style="fill:#90cf4c;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,28.006405   L 550.79264,36.008236   L 698.8265,36.008236   L 698.8265,28.006405   L 550.79264,28.006405   z "
+     id="path23" />
+  <path
+     style="fill:#90cf4b;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,36.008236   L 550.79264,38.675512   L 698.8265,38.675512   L 698.8265,36.008236   L 550.79264,36.008236   z "
+     id="path25" />
+  <path
+     style="fill:#8fcf4b;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,38.675512   L 550.79264,41.342789   L 698.8265,41.342789   L 698.8265,38.675512   L 550.79264,38.675512   z "
+     id="path27" />
+  <path
+     style="fill:#8fcf4a;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,41.342789   L 550.79264,49.344619   L 698.8265,49.344619   L 698.8265,41.342789   L 550.79264,41.342789   z "
+     id="path29" />
+  <path
+     style="fill:#8ece49;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,49.344619   L 550.79264,57.346449   L 698.8265,57.346449   L 698.8265,49.344619   L 550.79264,49.344619   z "
+     id="path31" />
+  <path
+     style="fill:#8ece48;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,57.346449   L 550.79264,60.013726   L 698.8265,60.013726   L 698.8265,57.346449   L 550.79264,57.346449   z "
+     id="path33" />
+  <path
+     style="fill:#8dce48;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,60.013726   L 550.79264,62.681003   L 698.8265,62.681003   L 698.8265,60.013726   L 550.79264,60.013726   z "
+     id="path35" />
+  <path
+     style="fill:#8dce47;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,62.681003   L 550.79264,70.682833   L 698.8265,70.682833   L 698.8265,62.681003   L 550.79264,62.681003   z "
+     id="path37" />
+  <path
+     style="fill:#8ccd46;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,70.682833   L 550.79264,80.018301   L 698.8265,80.018301   L 698.8265,70.682833   L 550.79264,70.682833   z "
+     id="path39" />
+  <path
+     style="fill:#8ccd45;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,80.018301   L 550.79264,88.020132   L 698.8265,88.020132   L 698.8265,80.018301   L 550.79264,80.018301   z "
+     id="path41" />
+  <path
+     style="fill:#8ccd44;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,88.020132   L 550.79264,90.687408   L 698.8265,90.687408   L 698.8265,88.020132   L 550.79264,88.020132   z "
+     id="path43" />
+  <path
+     style="fill:#8bcd44;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,90.687408   L 550.79264,93.354685   L 698.8265,93.354685   L 698.8265,90.687408   L 550.79264,90.687408   z "
+     id="path45" />
+  <path
+     style="fill:#8bcd43;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,93.354685   L 550.79264,101.35652   L 698.8265,101.35652   L 698.8265,93.354685   L 550.79264,93.354685   z "
+     id="path47" />
+  <path
+     style="fill:#8acc42;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,101.35652   L 550.79264,109.35835   L 698.8265,109.35835   L 698.8265,101.35652   L 550.79264,101.35652   z "
+     id="path49" />
+  <path
+     style="fill:#8acc41;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,109.35835   L 550.79264,112.02562   L 698.8265,112.02562   L 698.8265,109.35835   L 550.79264,109.35835   z "
+     id="path51" />
+  <path
+     style="fill:#89cc41;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,112.02562   L 550.79264,114.6929   L 698.8265,114.6929   L 698.8265,112.02562   L 550.79264,112.02562   z "
+     id="path53" />
+  <path
+     style="fill:#89cc40;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,114.6929   L 550.79264,122.69473   L 698.8265,122.69473   L 698.8265,114.6929   L 550.79264,114.6929   z "
+     id="path55" />
+  <path
+     style="fill:#88cc3f;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,122.69473   L 550.79264,130.69656   L 698.8265,130.69656   L 698.8265,122.69473   L 550.79264,122.69473   z "
+     id="path57" />
+  <path
+     style="fill:#88cc3e;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,130.69656   L 550.79264,133.36384   L 698.8265,133.36384   L 698.8265,130.69656   L 550.79264,130.69656   z "
+     id="path59" />
+  <path
+     style="fill:#87cb3e;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,133.36384   L 550.79264,136.03111   L 698.8265,136.03111   L 698.8265,133.36384   L 550.79264,133.36384   z "
+     id="path61" />
+  <path
+     style="fill:#87cb3d;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,136.03111   L 550.79264,144.03294   L 698.8265,144.03294   L 698.8265,136.03111   L 550.79264,136.03111   z "
+     id="path63" />
+  <path
+     style="fill:#87cb3c;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,144.03294   L 550.79264,152.03477   L 698.8265,152.03477   L 698.8265,144.03294   L 550.79264,144.03294   z "
+     id="path65" />
+  <path
+     style="fill:#87cb3b;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,152.03477   L 550.79264,154.70205   L 698.8265,154.70205   L 698.8265,152.03477   L 550.79264,152.03477   z "
+     id="path67" />
+  <path
+     style="fill:#86ca3b;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,154.70205   L 550.79264,157.36933   L 698.8265,157.36933   L 698.8265,154.70205   L 550.79264,154.70205   z "
+     id="path69" />
+  <path
+     style="fill:#86ca3a;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,157.36933   L 550.79264,165.37116   L 698.8265,165.37116   L 698.8265,157.36933   L 550.79264,157.36933   z "
+     id="path71" />
+  <path
+     style="fill:#85ca39;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath1)"
+     d="  M 550.79264,165.37116   L 550.79264,169.37207   L 698.8265,169.37207   L 698.8265,165.37116   L 550.79264,165.37116   z "
+     id="path73" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.41676199px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 552.12628,168.03843   L 696.15922,168.03843   L 696.15922,2.6672767   L 552.12628,2.6672767   L 552.12628,168.03843   z "
+     id="path75" />
+  <text
+     xml:space="preserve"
+     style="font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:118.041182%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:center;text-anchor:middle;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,564.129025,18.670937)"
+     x="64.008292"
+     y="0.000000"
+     id="text93"><tspan
+       sodipodi:role="line"
+       x="64.008292"
+       y="0.000000"
+       id="tspan87"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan77">P</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan79">6</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan81">.</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan83">2 </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan85">Motor Current </tspan></tspan><tspan
+       sodipodi:role="line"
+       x="63.134352"
+       y="17.337299"
+       id="tspan91"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan89">Arbitration and </tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,564.129025,18.670937)"
+     x="24.005490"
+     y="33.340959"
+     id="text99"><tspan
+       sodipodi:role="line"
+       x="24.005490"
+       y="33.340959"
+       id="tspan97"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan95">Diagnostics</tspan></tspan></text>
+  <path
+     style="fill:#b85f16;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,0   L 202.71303,1.3336384   L 372.0851,1.3336384   L 372.0851,0   L 202.71303,0   z "
+     id="path101" />
+  <path
+     style="fill:#d26d19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,1.3336384   L 202.71303,4.0009151   L 372.0851,4.0009151   L 372.0851,1.3336384   L 202.71303,1.3336384   z "
+     id="path103" />
+  <path
+     style="fill:#d16d19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,4.0009151   L 202.71303,6.6681918   L 372.0851,6.6681918   L 372.0851,4.0009151   L 202.71303,4.0009151   z "
+     id="path105" />
+  <path
+     style="fill:#d16c19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,6.6681918   L 202.71303,9.3354685   L 372.0851,9.3354685   L 372.0851,6.6681918   L 202.71303,6.6681918   z "
+     id="path107" />
+  <path
+     style="fill:#d06c19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,9.3354685   L 202.71303,17.337299   L 372.0851,17.337299   L 372.0851,9.3354685   L 202.71303,9.3354685   z "
+     id="path109" />
+  <path
+     style="fill:#cf6b19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,17.337299   L 202.71303,25.339129   L 372.0851,25.339129   L 372.0851,17.337299   L 202.71303,17.337299   z "
+     id="path111" />
+  <path
+     style="fill:#ce6b19;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,25.339129   L 202.71303,28.006405   L 372.0851,28.006405   L 372.0851,25.339129   L 202.71303,25.339129   z "
+     id="path113" />
+  <path
+     style="fill:#ce6a18;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,28.006405   L 202.71303,30.673682   L 372.0851,30.673682   L 372.0851,28.006405   L 202.71303,28.006405   z "
+     id="path115" />
+  <path
+     style="fill:#cd6a18;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,30.673682   L 202.71303,38.675512   L 372.0851,38.675512   L 372.0851,30.673682   L 202.71303,30.673682   z "
+     id="path117" />
+  <path
+     style="fill:#cc6a18;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,38.675512   L 202.71303,46.677342   L 372.0851,46.677342   L 372.0851,38.675512   L 202.71303,38.675512   z "
+     id="path119" />
+  <path
+     style="fill:#cb6a18;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,46.677342   L 202.71303,49.344619   L 372.0851,49.344619   L 372.0851,46.677342   L 202.71303,46.677342   z "
+     id="path121" />
+  <path
+     style="fill:#cb6918;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,49.344619   L 202.71303,52.011896   L 372.0851,52.011896   L 372.0851,49.344619   L 202.71303,49.344619   z "
+     id="path123" />
+  <path
+     style="fill:#ca6918;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,52.011896   L 202.71303,57.346449   L 372.0851,57.346449   L 372.0851,52.011896   L 202.71303,52.011896   z "
+     id="path125" />
+  <path
+     style="fill:#c96918;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,57.346449   L 202.71303,60.013726   L 372.0851,60.013726   L 372.0851,57.346449   L 202.71303,57.346449   z "
+     id="path127" />
+  <path
+     style="fill:#c96818;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,60.013726   L 202.71303,62.681003   L 372.0851,62.681003   L 372.0851,60.013726   L 202.71303,60.013726   z "
+     id="path129" />
+  <path
+     style="fill:#c86818;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,62.681003   L 202.71303,70.682833   L 372.0851,70.682833   L 372.0851,62.681003   L 202.71303,62.681003   z "
+     id="path131" />
+  <path
+     style="fill:#c76718;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,70.682833   L 202.71303,77.351025   L 372.0851,77.351025   L 372.0851,70.682833   L 202.71303,70.682833   z "
+     id="path133" />
+  <path
+     style="fill:#c66718;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,77.351025   L 202.71303,80.018301   L 372.0851,80.018301   L 372.0851,77.351025   L 202.71303,77.351025   z "
+     id="path135" />
+  <path
+     style="fill:#c66618;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,80.018301   L 202.71303,82.685578   L 372.0851,82.685578   L 372.0851,80.018301   L 202.71303,80.018301   z "
+     id="path137" />
+  <path
+     style="fill:#c56618;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,82.685578   L 202.71303,88.020132   L 372.0851,88.020132   L 372.0851,82.685578   L 202.71303,82.685578   z "
+     id="path139" />
+  <path
+     style="fill:#c46618;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,88.020132   L 202.71303,90.687408   L 372.0851,90.687408   L 372.0851,88.020132   L 202.71303,88.020132   z "
+     id="path141" />
+  <path
+     style="fill:#c46517;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,90.687408   L 202.71303,93.354685   L 372.0851,93.354685   L 372.0851,90.687408   L 202.71303,90.687408   z "
+     id="path143" />
+  <path
+     style="fill:#c36517;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,93.354685   L 202.71303,101.35652   L 372.0851,101.35652   L 372.0851,93.354685   L 202.71303,93.354685   z "
+     id="path145" />
+  <path
+     style="fill:#c26417;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,101.35652   L 202.71303,109.35835   L 372.0851,109.35835   L 372.0851,101.35652   L 202.71303,101.35652   z "
+     id="path147" />
+  <path
+     style="fill:#c16417;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,109.35835   L 202.71303,112.02562   L 372.0851,112.02562   L 372.0851,109.35835   L 202.71303,109.35835   z "
+     id="path149" />
+  <path
+     style="fill:#c16317;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,112.02562   L 202.71303,114.6929   L 372.0851,114.6929   L 372.0851,112.02562   L 202.71303,112.02562   z "
+     id="path151" />
+  <path
+     style="fill:#c06317;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,114.6929   L 202.71303,122.69473   L 372.0851,122.69473   L 372.0851,114.6929   L 202.71303,114.6929   z "
+     id="path153" />
+  <path
+     style="fill:#bf6317;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,122.69473   L 202.71303,130.69656   L 372.0851,130.69656   L 372.0851,122.69473   L 202.71303,122.69473   z "
+     id="path155" />
+  <path
+     style="fill:#be6317;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,130.69656   L 202.71303,133.36384   L 372.0851,133.36384   L 372.0851,130.69656   L 202.71303,130.69656   z "
+     id="path157" />
+  <path
+     style="fill:#be6217;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,133.36384   L 202.71303,136.03111   L 372.0851,136.03111   L 372.0851,133.36384   L 202.71303,133.36384   z "
+     id="path159" />
+  <path
+     style="fill:#bd6217;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,136.03111   L 202.71303,141.36567   L 372.0851,141.36567   L 372.0851,136.03111   L 202.71303,136.03111   z "
+     id="path161" />
+  <path
+     style="fill:#bc6217;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,141.36567   L 202.71303,144.03294   L 372.0851,144.03294   L 372.0851,141.36567   L 202.71303,141.36567   z "
+     id="path163" />
+  <path
+     style="fill:#bc6116;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,144.03294   L 202.71303,146.70022   L 372.0851,146.70022   L 372.0851,144.03294   L 202.71303,144.03294   z "
+     id="path165" />
+  <path
+     style="fill:#bb6116;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,146.70022   L 202.71303,154.70205   L 372.0851,154.70205   L 372.0851,146.70022   L 202.71303,146.70022   z "
+     id="path167" />
+  <path
+     style="fill:#ba6016;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,154.70205   L 202.71303,162.70388   L 372.0851,162.70388   L 372.0851,154.70205   L 202.71303,154.70205   z "
+     id="path169" />
+  <path
+     style="fill:#b96016;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,162.70388   L 202.71303,165.37116   L 372.0851,165.37116   L 372.0851,162.70388   L 202.71303,162.70388   z "
+     id="path171" />
+  <path
+     style="fill:#b95f16;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,165.37116   L 202.71303,168.03843   L 372.0851,168.03843   L 372.0851,165.37116   L 202.71303,165.37116   z "
+     id="path173" />
+  <path
+     style="fill:#b85f16;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     clip-path="url(#clipEmfPath2)"
+     d="  M 202.71303,168.03843   L 202.71303,169.37207   L 372.0851,169.37207   L 372.0851,168.03843   L 202.71303,168.03843   z "
+     id="path175" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.41676199px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 205.38031,168.03843   L 370.75146,168.03843   L 370.75146,2.6672767   L 205.38031,2.6672767   L 205.38031,168.03843   z "
+     id="path177" />
+  <text
+     xml:space="preserve"
+     style="font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:118.041182%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:center;text-anchor:middle;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,228.052159,18.670937)"
+     x="64.008292"
+     y="0.000000"
+     id="text195"><tspan
+       sodipodi:role="line"
+       x="64.008292"
+       y="0.000000"
+       id="tspan189"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan179">P</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan181">6</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan183">.</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan185">1 </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan187">Motor Current </tspan></tspan><tspan
+       sodipodi:role="line"
+       x="60.896004"
+       y="17.337299"
+       id="tspan193"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:14.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan191">Measurement</tspan></tspan></text>
+  <path
+     style="fill:#00b0f0;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 197.37848,45.343704   L 197.37848,60.013726   L 212.0485,60.013726   L 212.0485,45.343704   L 197.37848,45.343704   z "
+     id="path197" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 197.37848,60.013726   L 212.0485,60.013726   L 212.0485,45.343704   L 197.37848,45.343704   L 197.37848,60.013726   z "
+     id="path199" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 201.37939,48.010981   L 209.38122,52.011896   L 201.37939,57.346449  "
+     id="path201" />
+  <path
+     style="fill:#00b0f0;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 197.37848,68.015556   L 197.37848,82.685578   L 212.0485,82.685578   L 212.0485,68.015556   L 197.37848,68.015556   z "
+     id="path203" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 197.37848,82.685578   L 212.0485,82.685578   L 212.0485,68.015556   L 197.37848,68.015556   L 197.37848,82.685578   z "
+     id="path205" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 201.37939,70.682833   L 209.38122,74.683748   L 201.37939,80.018301  "
+     id="path207" />
+  <path
+     style="fill:#00b0f0;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 197.37848,90.687408   L 197.37848,105.35743   L 212.0485,105.35743   L 212.0485,90.687408   L 197.37848,90.687408   z "
+     id="path209" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 197.37848,105.35743   L 212.0485,105.35743   L 212.0485,90.687408   L 197.37848,90.687408   L 197.37848,105.35743   z "
+     id="path211" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 201.37939,93.354685   L 209.38122,97.3556   L 201.37939,102.69015  "
+     id="path213" />
+  <path
+     style="fill:#00b0f0;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 197.37848,113.35926   L 197.37848,128.02928   L 212.0485,128.02928   L 212.0485,113.35926   L 197.37848,113.35926   z "
+     id="path215" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 197.37848,128.02928   L 212.0485,128.02928   L 212.0485,113.35926   L 197.37848,113.35926   L 197.37848,128.02928   z "
+     id="path217" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 201.37939,116.02654   L 209.38122,120.02745   L 201.37939,125.36201  "
+     id="path219" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 4.0009151,52.011896   L 197.37848,52.011896  "
+     id="path221" />
+  <path
+     style="fill:#404040;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 0,48.010981   L 0,56.012811   L 8.0018301,56.012811   L 8.0018301,48.010981   L 0,48.010981   z "
+     id="path223" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 46.677342,46.677342   L 46.677342,58.680088   L 154.70205,58.680088   L 154.70205,46.677342   L 46.677342,46.677342   z "
+     id="path225" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,46.677342,56.012811)"
+     x="0.000000"
+     y="0.000000"
+     id="text233"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan231"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan227">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan229">1</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 4.0009151,74.683748   L 197.37848,74.683748  "
+     id="path235" />
+  <path
+     style="fill:#404040;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 0,70.682833   L 0,78.684663   L 8.0018301,78.684663   L 8.0018301,70.682833   L 0,70.682833   z "
+     id="path237" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 46.677342,69.349195   L 46.677342,81.35194   L 154.70205,81.35194   L 154.70205,69.349195   L 46.677342,69.349195   z "
+     id="path239" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,46.677342,78.684663)"
+     x="0.000000"
+     y="0.000000"
+     id="text247"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan245"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan241">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan243">2</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 4.0009151,97.3556   L 197.37848,97.3556  "
+     id="path249" />
+  <path
+     style="fill:#404040;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 0,93.354685   L 0,101.35652   L 8.0018301,101.35652   L 8.0018301,93.354685   L 0,93.354685   z "
+     id="path251" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 46.677342,92.021047   L 46.677342,104.02379   L 154.70205,104.02379   L 154.70205,92.021047   L 46.677342,92.021047   z "
+     id="path253" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,46.677342,101.356515)"
+     x="0.000000"
+     y="0.000000"
+     id="text261"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan259"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan255">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan257">3</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 4.0009151,120.02745   L 197.37848,120.02745  "
+     id="path263" />
+  <path
+     style="fill:#404040;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 0,116.02654   L 0,124.02837   L 8.0018301,124.02837   L 8.0018301,116.02654   L 0,116.02654   z "
+     id="path265" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 52.011896,114.6929   L 52.011896,126.69564   L 149.3675,126.69564   L 149.3675,114.6929   L 52.011896,114.6929   z "
+     id="path267" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,52.011896,124.028367)"
+     x="0.000000"
+     y="0.000000"
+     id="text273"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan271"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan269">Motor Current Offset</tspan></tspan></text>
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 364.08327,45.343704   L 364.08327,60.013726   L 378.75329,60.013726   L 378.75329,45.343704   L 364.08327,45.343704   z "
+     id="path275" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 364.08327,60.013726   L 378.75329,60.013726   L 378.75329,45.343704   L 364.08327,45.343704   L 364.08327,60.013726   z "
+     id="path277" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 368.08419,48.010981   L 374.75238,52.011896   L 368.08419,57.346449  "
+     id="path279" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 364.08327,68.015556   L 364.08327,82.685578   L 378.75329,82.685578   L 378.75329,68.015556   L 364.08327,68.015556   z "
+     id="path281" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 364.08327,82.685578   L 378.75329,82.685578   L 378.75329,68.015556   L 364.08327,68.015556   L 364.08327,82.685578   z "
+     id="path283" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 368.08419,70.682833   L 374.75238,74.683748   L 368.08419,80.018301  "
+     id="path285" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 364.08327,90.687408   L 364.08327,105.35743   L 378.75329,105.35743   L 378.75329,90.687408   L 364.08327,90.687408   z "
+     id="path287" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 364.08327,105.35743   L 378.75329,105.35743   L 378.75329,90.687408   L 364.08327,90.687408   L 364.08327,105.35743   z "
+     id="path289" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 368.08419,93.354685   L 374.75238,97.3556   L 368.08419,102.69015  "
+     id="path291" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 544.12445,45.343704   L 544.12445,60.013726   L 560.12811,60.013726   L 560.12811,45.343704   L 544.12445,45.343704   z "
+     id="path293" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 544.12445,60.013726   L 560.12811,60.013726   L 560.12811,45.343704   L 544.12445,45.343704   L 544.12445,60.013726   z "
+     id="path295" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 548.12536,48.010981   L 556.12719,52.011896   L 548.12536,57.346449  "
+     id="path297" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 544.12445,68.015556   L 544.12445,82.685578   L 560.12811,82.685578   L 560.12811,68.015556   L 544.12445,68.015556   z "
+     id="path299" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 544.12445,82.685578   L 560.12811,82.685578   L 560.12811,68.015556   L 544.12445,68.015556   L 544.12445,82.685578   z "
+     id="path301" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 548.12536,70.682833   L 556.12719,74.683748   L 548.12536,80.018301  "
+     id="path303" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 544.12445,90.687408   L 544.12445,105.35743   L 560.12811,105.35743   L 560.12811,90.687408   L 544.12445,90.687408   z "
+     id="path305" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 544.12445,105.35743   L 560.12811,105.35743   L 560.12811,90.687408   L 544.12445,90.687408   L 544.12445,105.35743   z "
+     id="path307" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 548.12536,93.354685   L 556.12719,97.3556   L 548.12536,102.69015  "
+     id="path309" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 378.75329,52.011896   L 544.12445,52.011896  "
+     id="path311" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 408.09334,46.677342   L 408.09334,58.680088   L 516.11804,58.680088   L 516.11804,46.677342   L 408.09334,46.677342   z "
+     id="path313" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,408.093337,56.012811)"
+     x="0.000000"
+     y="0.000000"
+     id="text321"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan319"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan315">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan317">1</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 378.75329,74.683748   L 544.12445,74.683748  "
+     id="path323" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 408.09334,69.349195   L 408.09334,81.35194   L 516.11804,81.35194   L 516.11804,69.349195   L 408.09334,69.349195   z "
+     id="path325" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,408.093337,78.684663)"
+     x="0.000000"
+     y="0.000000"
+     id="text333"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan331"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan327">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan329">2</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 378.75329,97.3556   L 544.12445,97.3556  "
+     id="path335" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 408.09334,92.021047   L 408.09334,104.02379   L 516.11804,104.02379   L 516.11804,92.021047   L 408.09334,92.021047   z "
+     id="path337" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,408.093337,101.356515)"
+     x="0.000000"
+     y="0.000000"
+     id="text345"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan343"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan339">Motor Current Phase </tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan341">3</tspan></tspan></text>
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 689.49103,65.348279   L 689.49103,80.018301   L 704.16105,80.018301   L 704.16105,65.348279   L 689.49103,65.348279   z "
+     id="path347" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 689.49103,80.018301   L 704.16105,80.018301   L 704.16105,65.348279   L 689.49103,65.348279   L 689.49103,80.018301   z "
+     id="path349" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 692.15831,68.015556   L 700.16014,72.016471   L 692.15831,77.351025  "
+     id="path351" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 869.53221,65.348279   L 869.53221,80.018301   L 884.20223,80.018301   L 884.20223,65.348279   L 869.53221,65.348279   z "
+     id="path353" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 869.53221,80.018301   L 884.20223,80.018301   L 884.20223,65.348279   L 869.53221,65.348279   L 869.53221,80.018301   z "
+     id="path355" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 872.19948,68.015556   L 880.20132,72.016471   L 872.19948,77.351025  "
+     id="path357" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 704.16105,72.016471   L 869.53221,72.016471  "
+     id="path359" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 753.50567,66.681918   L 753.50567,78.684663   L 818.85395,78.684663   L 818.85395,66.681918   L 753.50567,66.681918   z "
+     id="path361" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,753.505671,76.017386)"
+     x="0.000000"
+     y="0.000000"
+     id="text367"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan365"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan363">Motor Current</tspan></tspan></text>
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 689.49103,108.02471   L 689.49103,122.69473   L 704.16105,122.69473   L 704.16105,108.02471   L 689.49103,108.02471   z "
+     id="path369" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 689.49103,122.69473   L 704.16105,122.69473   L 704.16105,108.02471   L 689.49103,108.02471   L 689.49103,122.69473   z "
+     id="path371" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 692.15831,110.69198   L 700.16014,116.02654   L 692.15831,120.02745  "
+     id="path373" />
+  <path
+     style="fill:#92d050;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 869.53221,108.02471   L 869.53221,122.69473   L 884.20223,122.69473   L 884.20223,108.02471   L 869.53221,108.02471   z "
+     id="path375" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 869.53221,122.69473   L 884.20223,122.69473   L 884.20223,108.02471   L 869.53221,108.02471   L 869.53221,122.69473   z "
+     id="path377" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 872.19948,110.69198   L 880.20132,116.02654   L 872.19948,120.02745  "
+     id="path379" />
+  <path
+     style="fill:none;stroke:#404040;stroke-width:0.91687638px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 704.16105,116.02654   L 869.53221,116.02654  "
+     id="path381" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 737.50201,109.35835   L 737.50201,121.36109   L 836.19125,121.36109   L 836.19125,109.35835   L 737.50201,109.35835   z "
+     id="path383" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;line-height:125.000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;text-align:start;text-anchor:start;"
+     transform="matrix(1.000000,-0.000000,0.000000,1.000000,737.502011,118.693814)"
+     x="0.000000"
+     y="0.000000"
+     id="text391"><tspan
+       sodipodi:role="line"
+       x="0.000000"
+       y="0.000000"
+       id="tspan389"><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan385">Motor Current</tspan><tspan
+         dx="0.000000"
+         dy="0.000000"
+         style="fill:#000000;font-size:10.687500px;font-style:normal;font-variant:normal;font-weight:400;font-stretch:Normal;font-family:Arial;"
+         id="tspan387">Status</tspan></tspan></text>
+</svg>

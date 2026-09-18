@@ -1,0 +1,226 @@
+{
+  "requirements": [
+    {
+      "requirement": "Provide Steering Assistance",
+      "allocation": "P15",
+      "capability": "To steer the vehicle"
+    },
+    {
+      "requirement": "Provide absolute steering wheel position (Position Learning)",
+      "allocation": "P2",
+      "capability": "To reduce steering effort for the driver"
+    },
+    {
+      "requirement": "Support parking assistance feature",
+      "allocation": "P7, P9, P12, P13, P14, P15",
+      "capability": "To provide a comfortable ride experience in terms of external steering forces"
+    },
+    {
+      "requirement": "Support manufacturing services feature",
+      "allocation": "S3",
+      "capability": "To assist other systems of the vehicle in steering the vehicle"
+    },
+    {
+      "requirement": "Support for external torque control interface",
+      "allocation": "P7, P9, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Support vehicle energy management",
+      "allocation": "P8, P11",
+      "capability": "Terminology"
+    },
+    {
+      "requirement": "Support haptic steering vibration (Lane departure warning)",
+      "allocation": "P7, P9, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Cardan-joint compensation",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Curb push off protection",
+      "allocation": "P5, P11",
+      "capability": ""
+    },
+    {
+      "requirement": "Damping",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "DD Factor interface",
+      "allocation": "P7, P10",
+      "capability": ""
+    },
+    {
+      "requirement": "End of Travel soft stop",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Friction detection and compensation",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Hysterisis add",
+      "allocation": "P10",
+      "capability": ""
+    },
+    {
+      "requirement": "Inertia compensation",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": "Colour Code"
+    },
+    {
+      "requirement": "Pull compensation",
+      "allocation": "P10, P12, P13, P14, P15",
+      "capability": ""
+    },
+    {
+      "requirement": "Return",
+      "allocation": "P9, P12, P13, P14, P15",
+      "capability": "MECHANICAL ACTUATOR"
+    },
+    {
+      "requirement": "Thermal Management",
+      "allocation": "P5, P11",
+      "capability": "POWERPACK"
+    },
+    {
+      "requirement": "Rack load estimation",
+      "allocation": "P7, P10",
+      "capability": "MOTOR SENSING SUB-SYSTEM"
+    },
+    {
+      "requirement": "Interface with Vehicle ECU",
+      "allocation": "P7",
+      "capability": "MOTOR ASSEMBLY"
+    },
+    {
+      "requirement": "Traffic Jam Assist (TJA)",
+      "allocation": "P7, P9, P12, P13, P14, P15",
+      "capability": "CONTROL MODULE"
+    }
+  ],
+  "primary": [
+    "P1. Handwheel torque",
+    "P2. Pinion angle",
+    "P3. Motor angle",
+    "P4. Motor velocity",
+    "P5. Temperature",
+    "P6. Motor current",
+    "P7. Vehicle communications",
+    "P8. Supply voltage",
+    "P9. Calculate torque overlay command",
+    "P10. Calculate torque command modifiers",
+    "P11. Calculate motor torque command limit",
+    "P12. Calculate motor torque command",
+    "P13. Calculate motor voltage command",
+    "P14. Generate motor voltage",
+    "P15. Provide motor torque"
+  ],
+  "secondary": [
+    "S1. Calibrations",
+    "S2. Diagnostics",
+    "S3. Manufacturing services",
+    "S4. Security",
+    "S5. States and Modes",
+    "S6. Diagnostic services"
+  ],
+  "allocation": [
+    {
+      "element": "Powerpack",
+      "function": "P3. Motor angle"
+    },
+    {
+      "element": "Powerpack",
+      "function": "P4. Motor velocity"
+    },
+    {
+      "element": "Powerpack",
+      "function": "P5. Temperature"
+    },
+    {
+      "element": "Powerpack",
+      "function": "P8. Supply voltage"
+    },
+    {
+      "element": "Control Module",
+      "function": "P15. Provide motor torque"
+    },
+    {
+      "element": "Control Module",
+      "function": "P1. Handwheel torque"
+    },
+    {
+      "element": "Control Module",
+      "function": "P2. Pinion angle"
+    },
+    {
+      "element": "Control Module",
+      "function": "P6. Motor current"
+    },
+    {
+      "element": "Control Module",
+      "function": "P7. Vehicle communications"
+    },
+    {
+      "element": "Control Module",
+      "function": "P14. Generate motor voltage"
+    },
+    {
+      "element": "Control Module",
+      "function": "S1. Calibrations"
+    },
+    {
+      "element": "Control Module",
+      "function": "S2. Diagnostics"
+    },
+    {
+      "element": "Control Module",
+      "function": "S3. Manufacturing services"
+    },
+    {
+      "element": "Control Module",
+      "function": "S5. States and Modes"
+    },
+    {
+      "element": "Software",
+      "function": "S6. Diagnostic services"
+    },
+    {
+      "element": "Software",
+      "function": "P9. Calculate torque overlay command"
+    },
+    {
+      "element": "Software",
+      "function": "P10. Calculate torque command modifiers"
+    },
+    {
+      "element": "Software",
+      "function": "P11. Calculate motor torque command limit"
+    },
+    {
+      "element": "Software",
+      "function": "P12. Calculate motor torque command"
+    },
+    {
+      "element": "Software",
+      "function": "P13. Calculate motor voltage command"
+    },
+    {
+      "element": "Software",
+      "function": "S4. Security"
+    }
+  ],
+  "capabilities": [
+    "To steer the vehicle",
+    "To reduce steering effort for the driver",
+    "To provide a comfortable ride experience in terms of external steering forces",
+    "To assist other systems of the vehicle in steering the vehicle"
+  ]
+}

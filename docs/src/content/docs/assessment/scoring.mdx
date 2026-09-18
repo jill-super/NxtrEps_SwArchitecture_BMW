@@ -1,0 +1,66 @@
+---
+title: Architecture Scoring
+description: Step 6 scoring for alternative architectures 1 and 2.
+---
+import assessment from '../../../data/assessment.json';
+import ClientJs from '../../../components/ClientJs.astro';
+
+Source: `Architecture Assessment` sheet, Step 6. Legend:
+<span class="badge status-1">1 · fully meets</span>
+<span class="badge status-05">0.5 · partially</span>
+<span class="badge status-0">0 · does not meet</span>.
+Both alternatives score **{assessment.alternatives[0]?.score}** in the workbook.
+
+<div class="eps-toolbar">
+  <input type="search" id="score-search" placeholder="Filter KPP / criterion…" aria-label="Filter scoring rows" />
+  <select id="score-alt" aria-label="Alternative">
+    <option value="both">Both alternatives</option>
+    <option value="0">Alternative 1 only</option>
+    <option value="1">Alternative 2 only</option>
+  </select>
+  <select id="score-status" aria-label="Status">
+    <option value="">All statuses</option>
+    <option value="1">Fully (1)</option>
+    <option value="0.5">Partially (0.5)</option>
+    <option value="0">Not met (0)</option>
+  </select>
+  <span class="count" id="score-count"></span>
+</div>
+
+<div class="eps-grid cols-2" id="score-grids">
+{assessment.alternatives.map((alt, ai) => (
+  <div class="eps-card" data-alt={ai}>
+    <h3>Alternative {alt.alt} — total {alt.score}</h3>
+    <table class="eps-table score-table" data-alt-table={ai}>
+      <thead><tr><th>#</th><th>KPP</th><th>Criterion</th><th>Status</th><th>Indiv.</th><th>KPP</th><th>W</th><th>W·KPP</th></tr></thead>
+      <tbody>
+      {alt.rows.map((r) => (
+        <tr data-status={r.individual} data-kpp={r.no}>
+          <td>{r.no}</td>
+          <td>{r.kpp}</td>
+          <td>{r.criterion}</td>
+          <td class={r.individual === '1' ? 'status-1' : r.individual === '0.5' ? 'status-05' : r.individual === '0' ? 'status-0' : ''}>{r.status}</td>
+          <td>{r.individual}</td>
+          <td>{r.kppScore}</td>
+          <td>{r.weightage}</td>
+          <td>{r.weighted}</td>
+        </tr>
+      ))}
+      </tbody>
+    </table>
+  </div>
+))}
+</div>
+
+## Weighted totals
+
+<div class="eps-grid cols-2">
+{assessment.alternatives.map((alt) => (
+  <div class="eps-card">
+    <h4>Alternative {alt.alt}: {alt.score}</h4>
+    <div class="bar"><span style={`width:${Math.min(100, (parseFloat(alt.score) / 10) * 100)}%`}></span></div>
+  </div>
+))}
+</div>
+
+<ClientJs src="js/scoring.js" />

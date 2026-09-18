@@ -1,0 +1,61 @@
+{
+  "title": "Revision History",
+  "header": [
+    "Date",
+    "Event",
+    "Personnel Involved",
+    "Notes",
+    "Version"
+  ],
+  "rows": [
+    [
+      "2017-07-06 00:00:00",
+      "Document creation",
+      "Rahul Alaguvelu",
+      "Architecture diagrams moved from Visio to Excel; Introduction of worksheets - Description, Interactions, Identified External Interfaces, System States and Architecture Assessment",
+      "0.01"
+    ],
+    [
+      "2017-07-07 00:00:00",
+      "",
+      "Rahul Alaguvelu",
+      "Updates to worksheets - 'System Architecture, Description, Interactions, Identified External Interfaces'",
+      "0.02"
+    ],
+    [
+      "2017-07-18 00:00:00",
+      "",
+      "Rahul Alaguvelu",
+      "Updates to the System Functional Architecture diagram; Introduction of a Level 2 system functional architecture; Introduction of a Safety View; In the 'System States' sheet, the fault categories are updated;",
+      "0.03"
+    ],
+    [
+      "2017-07-27 00:00:00",
+      "",
+      "Rahul Alaguvelu; Karthikeya Pitchai",
+      "Updates to the 'Identified External Interafaces' worksheet; Update to the Functional Architecture diagram - Deleted 'Motor Revolution' as an input to the Pinion Angle block;",
+      "0.04"
+    ],
+    [
+      "2017-08-02 00:00:00",
+      "",
+      "Rahul Alaguvelu; Scott Millsap",
+      "Introduction of 'Version Tracker' worksheet; Updates to 'Identified External Interfaces' worksheet; Introduction of Traffic Jam Assist as a functional requirement in the System Architecture_Level 1 worksheet; Introduction of Functional Decomposition View; Updates to level 2 system architecture; Added level 2 functions in the 'Description' worksheet;",
+      "0.05"
+    ],
+    [
+      "2017-08-16 00:00:00",
+      "System Architecture Review during the System Architecture Workshop for partial release",
+      "Rahul Alaguvelu; Kevin Derry; Scott Millsap; Julie Kleinau; Rhonda Brender; Jason Erlenbeck",
+      "Changing the name of worksheet 'Version Tracker' to 'Release Tracker'; Removing 'Accelerometer' as a physical element from the 'Interactions' worksheet;",
+      "0.06"
+    ],
+    [
+      "2017-08-21 00:00:00",
+      "Partial Release of the architecture",
+      "Rahul Alaguvelu; Meagan Lambertson",
+      "",
+      "0.07"
+    ]
+  ]
+}

@@ -1,0 +1,46 @@
+---
+title: Overview
+description: Interactive docs for the EPS BMW 5441 system architecture workbook.
+---
+import level1 from '../../data/level-1.json';
+import states from '../../data/system-states.json';
+import assessment from '../../data/assessment.json';
+import descriptions from '../../data/function-descriptions.json';
+
+This site publishes **every sheet** of `Design/Bmw_5441_Design_SysArch_A.xlsx` as
+searchable, interactive documentation. Nothing is screenshot-only: tables filter,
+functions cross-link, the state machine is clickable, and the original embedded
+diagrams are viewable as SVG.
+
+## System at a glance
+
+<div class="eps-grid cols-4">
+  <div class="eps-card"><h3>{level1.requirements.length}</h3><p>Customer functional requirements traced to P/S functions</p></div>
+  <div class="eps-card"><h3>{descriptions.length}</h3><p>Described functions (primary, secondary, Level-2)</p></div>
+  <div class="eps-card"><h3>{states.transitions.length}</h3><p>State transitions across {states.states.length} states</p></div>
+  <div class="eps-card"><h3>{assessment.alternatives[0]?.score ?? '—'}</h3><p>Architecture assessment score (Alt 1 &amp; 2)</p></div>
+</div>
+
+## Capabilities
+
+{level1.capabilities.map((c) => `- ${c}`).join('\n')}
+
+## Function map
+
+Primary: {level1.primary.join(' · ')}.
+Secondary: {level1.secondary.join(' · ')}.
+
+Start with [Level 1](architecture/level-1/) for the requirements trace, or jump to
+the [Function Descriptions](design/function-descriptions/) explorer.
+
+## Colour code
+
+| Colour | Subsystem |
+|---|---|
+| <span class="dot" style="background:#FFC000"></span> | MECHANICAL ACTUATOR |
+| <span class="dot" style="background:#F9CFB5"></span> | POWERPACK |
+| <span class="dot" style="background:#00FFFF"></span> | MOTOR SENSING SUB-SYSTEM |
+| <span class="dot" style="background:#FFFF00"></span> | MOTOR ASSEMBLY |
+| <span class="dot" style="background:#00B0F0"></span> | CONTROL MODULE |
+| <span class="dot" style="background:#D9D9D9"></span> | ELECTRONIC HARDWARE |
+| <span class="dot" style="background:#92D050"></span> | SOFTWARE |

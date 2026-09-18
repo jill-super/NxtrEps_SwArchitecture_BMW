@@ -1,0 +1,19 @@
+---
+title: Revision History
+description: Full revision history from the Rev History sheet.
+---
+import rev from '../../data/rev-history.json';
+import FilterBar from '../../components/FilterBar.astro';
+
+Source: `Rev History` sheet of the design workbook.
+
+<FilterBar tableId="rev-table" placeholder="Filter revisions…" />
+
+<table id="rev-table" class="eps-table">
+<thead><tr>{rev.header.map((h) => <th>{h}</th>)}</tr></thead>
+<tbody>
+{rev.rows.map((r) => (
+  <tr>{rev.header.map((_, i) => <td>{r[i] ?? ''}</td>)}</tr>
+))}
+</tbody>
+</table>

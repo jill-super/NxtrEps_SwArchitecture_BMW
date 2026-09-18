@@ -1,0 +1,28 @@
+---
+title: Safety Architecture View
+description: Functional / technical safety concept allocation per function.
+---
+import safety from '../../../data/safety-view.json';
+import Diagram from '../../../components/Diagram.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+
+Source: `System Safety Architecture View` sheet.
+
+<Diagram file="image15.svg" fallback="image15.png" alt="Safety view diagram" caption="Safety view diagram (converted from embedded EMF preview)" />
+
+<FilterBar tableId="safety-table" placeholder="Filter by function, FCN…" />
+
+<table id="safety-table" class="eps-table">
+<thead><tr><th>Group</th><th>Function</th><th>Nomenclature</th><th>Functional safety concept</th><th>Technical safety concept</th></tr></thead>
+<tbody>
+{safety.map((s) => (
+  <tr>
+    <td>{s.group}</td>
+    <td>{s.function}</td>
+    <td><span class="badge fn">{s.nomenclature}</span></td>
+    <td>{s.fsConcept === 'NA' ? <span class="badge na">NA</span> : <span class="badge fcn">{s.fsConcept}</span>}</td>
+    <td>{s.tsConcept || '—'}</td>
+  </tr>
+))}
+</tbody>
+</table>

@@ -1,0 +1,77 @@
+---
+title: 'Level 1 — Functional Architecture'
+description: Customer requirements, functional allocation, capabilities and physical allocation.
+---
+import level1 from '../../../data/level-1.json';
+import colour from '../../../data/colour-code.json';
+import Diagram from '../../../components/Diagram.astro';
+import FilterBar from '../../../components/FilterBar.astro';
+
+Source: `System Architecture_Level 1` sheet. Type a function ID (e.g. `P10`) or a
+requirement keyword to trace allocation live.
+
+## Original diagrams
+
+<Diagram file="image8.svg" fallback="image8.png" alt="Level 1 functional architecture diagram part 1" caption="Level 1 diagram, part 1 (converted from embedded EMF preview — click to open full size)" />
+<Diagram file="image9.svg" fallback="image9.png" alt="Level 1 functional architecture diagram part 2" caption="Level 1 diagram, part 2 (converted from embedded EMF preview)" />
+
+## Requirements traceability
+
+<FilterBar tableId="req-table" placeholder="Filter by requirement, function (P/S), capability…" />
+
+<table id="req-table" class="eps-table">
+<thead><tr><th>Functional requirement (customer)</th><th>Allocation</th><th>Capability</th></tr></thead>
+<tbody>
+{level1.requirements.map((r) => (
+  <tr>
+    <td>{r.requirement}</td>
+    <td>{r.allocation.split(',').map((f) => <span><a class="badge fn" href={`../design/function-descriptions/#${f.trim()}`}>{f.trim()}</a>{' '}</span>)}</td>
+    <td>{r.capability}</td>
+  </tr>
+))}
+</tbody>
+</table>
+
+## Primary & secondary functions
+
+<div class="eps-grid cols-2">
+<div class="eps-card">
+
+### Primary
+
+{level1.primary.map((f) => `- ${f}`).join('\n')}
+
+</div>
+<div class="eps-card">
+
+### Secondary
+
+{level1.secondary.map((f) => `- ${f}`).join('\n')}
+
+</div>
+</div>
+
+## Physical allocation
+
+<FilterBar tableId="alloc-table" placeholder="Filter by element or function…" />
+
+<table id="alloc-table" class="eps-table">
+<thead><tr><th>Physical element</th><th>Function</th></tr></thead>
+<tbody>
+{level1.allocation.map((a) => (
+  <tr data-element={a.element}>
+    <td>{a.element}</td>
+    <td><a class="badge fn" href={`../design/function-descriptions/#${a.function.split('.')[0]}`}>{a.function}</a></td>
+  </tr>
+))}
+</tbody>
+</table>
+
+## Colour code
+
+<table class="eps-table">
+<thead><tr><th>Swatch</th><th>Subsystem</th></tr></thead>
+<tbody>
+{colour.map((c) => <tr><td><span class="dot" style={`background:${c.color}`}></span>{c.color}</td><td>{c.code}</td></tr>)}
+</tbody>
+</table>

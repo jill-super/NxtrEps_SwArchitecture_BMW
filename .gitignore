@@ -1,0 +1,19 @@
+# Dependencies
+docs/node_modules/
+
+# Astro build output (rebuilt in CI / locally via `npm run build`)
+docs/dist/
+docs/.astro/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

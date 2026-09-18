@@ -1,0 +1,26 @@
+---
+title: 'Level 2 — Subsystems'
+description: Level 2 colour code and subsystem diagram fragments.
+---
+import level2 from '../../../data/level-2.json';
+import Diagram from '../../../components/Diagram.astro';
+
+Source: `System Architecture_Level 2` sheet. The sheet carries the subsystem colour
+legend plus embedded diagram fragments (converted below).
+
+## Colour code
+
+<table class="eps-table">
+<thead><tr><th>Subsystem</th></tr></thead>
+<tbody>
+{level2.notes.map((r) => <tr><td>{r[1] ?? r[0]}</td></tr>)}
+</tbody>
+</table>
+
+## Diagram fragments
+
+<Diagram file="image10.svg" fallback="image10.png" alt="Level 2 fragment 1" caption="Level 2 fragment 1" />
+<Diagram file="image11.svg" fallback="image11.png" alt="Level 2 fragment 2" caption="Level 2 fragment 2" />
+<Diagram file="image12.svg" fallback="image12.png" alt="Level 2 fragment 3" caption="Level 2 fragment 3" />
+<Diagram file="image13.svg" fallback="image13.png" alt="Level 2 fragment 4" caption="Level 2 fragment 4" />
+<Diagram file="image14.svg" fallback="image14.png" alt="Level 2 fragment 5" caption="Level 2 fragment 5" />

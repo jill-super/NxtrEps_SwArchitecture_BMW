@@ -1,0 +1,178 @@
+[
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Lateral Acceleration",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Vehicle Speed",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Yaw - Rate",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Personalities",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Pinion Offset",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Turns-counter Offset",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Pull Compensation Activation / Deactivation",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Engine Status",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Vehicle Parameters Data",
+    "signal": "Maximum Allowable Current Draw",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Commands from Vehicle ECU",
+    "signal": "MSA Start / Stop",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Commands from Vehicle ECU",
+    "signal": "Driver Dymanic Factor",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Commands from Vehicle ECU",
+    "signal": "Lane Departure warning (EVI - Haptic feedback)",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Commands from Vehicle ECU",
+    "signal": "Traffic Jam Assist (TJA)",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Commands from Vehicle ECU",
+    "signal": "Park Assist",
+    "from": "Vehicle ECU",
+    "to": "Control Module",
+    "mode": "Reception",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Handwheel Position Data",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Current Draw by the EPS",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Handwheel Torque",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Motor Torque (EPS Torque)",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Gear Rack Force",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Data",
+    "signal": "Motor Temperature",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Health",
+    "signal": "System State",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  },
+  {
+    "group": "Steering System Health",
+    "signal": "Level of Assist)",
+    "from": "Control Module",
+    "to": "Vehicle ECU",
+    "mode": "Transmission",
+    "medium": "Wiring Harness (Vehicle level)"
+  }
+]

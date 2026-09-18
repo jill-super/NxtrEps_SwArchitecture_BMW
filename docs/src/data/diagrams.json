@@ -1,0 +1,65 @@
+{
+  "level1": [
+    {
+      "file": "image8.svg",
+      "fallback": "image8.png",
+      "label": "Level 1 functional architecture diagram (sheet drawing, part 1)"
+    },
+    {
+      "file": "image9.svg",
+      "fallback": "image9.png",
+      "label": "Level 1 functional architecture diagram (sheet drawing, part 2)"
+    }
+  ],
+  "level2": [
+    {
+      "file": "image10.svg",
+      "fallback": "image10.png",
+      "label": "Level 2 diagram fragment 1"
+    },
+    {
+      "file": "image11.svg",
+      "fallback": "image11.png",
+      "label": "Level 2 diagram fragment 2"
+    },
+    {
+      "file": "image12.svg",
+      "fallback": "image12.png",
+      "label": "Level 2 diagram fragment 3"
+    },
+    {
+      "file": "image13.svg",
+      "fallback": "image13.png",
+      "label": "Level 2 diagram fragment 4"
+    },
+    {
+      "file": "image14.svg",
+      "fallback": "image14.png",
+      "label": "Level 2 diagram fragment 5"
+    }
+  ],
+  "safety": [
+    {
+      "file": "image15.svg",
+      "fallback": "image15.png",
+      "label": "Safety view diagram"
+    }
+  ],
+  "states": [
+    {
+      "file": "image16.svg",
+      "fallback": "image16.png",
+      "label": "System states diagram"
+    }
+  ],
+  "ports": [
+    "image1.svg",
+    "image2.svg",
+    "image3.svg",
+    "image4.svg",
+    "image5.svg",
+    "image6.svg",
+    "image7.svg"
+  ],
+  "note": "SVGs converted from the workbook's embedded EMF previews (xl/media/*.emf, Visio/OLE drawings on Level-1, Level-2, Safety and States sheets). Original .emf files are not shipped; see Source page."
+}

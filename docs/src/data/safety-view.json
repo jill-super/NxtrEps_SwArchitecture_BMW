@@ -1,0 +1,149 @@
+[
+  {
+    "group": "Primary System Functions",
+    "function": "P1. Handwheel torque",
+    "nomenclature": "P1",
+    "fsConcept": "FCN1",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P2. Pinion angle",
+    "nomenclature": "P2",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P3. Motor angle",
+    "nomenclature": "P3",
+    "fsConcept": "FCN2",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P4. Motor velocity",
+    "nomenclature": "P4",
+    "fsConcept": "FCN2",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P5. Temperature",
+    "nomenclature": "P5",
+    "fsConcept": "FCN7",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P6. Motor current",
+    "nomenclature": "P6",
+    "fsConcept": "FCN8",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P7. Vehicle communications",
+    "nomenclature": "P7",
+    "fsConcept": "FCN4",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P8. Supply voltage",
+    "nomenclature": "P8",
+    "fsConcept": "FCN5",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P9. Calculate torque overlay command",
+    "nomenclature": "P9",
+    "fsConcept": "FCN3.1",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P10. Calculate torque command modifiers",
+    "nomenclature": "P10",
+    "fsConcept": "FCN3.2",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P11. Calculate motor torque command limit",
+    "nomenclature": "P11",
+    "fsConcept": "FCN3.3",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P12. Calculate motor torque command",
+    "nomenclature": "P12",
+    "fsConcept": "FCN3.4",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P13. Calculate motor voltage command",
+    "nomenclature": "P13",
+    "fsConcept": "FCN3.5",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P14. Generate motor voltage",
+    "nomenclature": "P14",
+    "fsConcept": "FCN6",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "P15. Provide motor torque",
+    "nomenclature": "P15",
+    "fsConcept": "FCN6",
+    "tsConcept": ""
+  },
+  {
+    "group": "Secondary System Functions",
+    "function": "S1. Calibrations",
+    "nomenclature": "S1",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "S2. Diagnostics",
+    "nomenclature": "S2",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "S3. Manufacturing services",
+    "nomenclature": "S3",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "S4. Security",
+    "nomenclature": "S4",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "S5. States and Modes",
+    "nomenclature": "S5",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  },
+  {
+    "group": "",
+    "function": "S6. Diagnostic services",
+    "nomenclature": "S6",
+    "fsConcept": "NA",
+    "tsConcept": ""
+  }
+]

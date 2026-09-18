@@ -1,0 +1,43 @@
+---
+/* Generic client-side table filter: input[data-filter-for] filters rows of table#id. */
+interface Props { tableId: string; placeholder?: string; selectFilters?: { id: string; label: string; options: string[] }[] }
+const { tableId, placeholder = 'Type to filter…', selectFilters = [] } = Astro.props;
+---
+<div class="eps-toolbar" data-filterbar={tableId}>
+  <input type="search" placeholder={placeholder} aria-label={placeholder} data-filter-input={tableId} />
+  {selectFilters.map((s) => (
+    <select data-filter-select={tableId} data-col={s.id} aria-label={s.label}>
+      <option value="">{s.label}: all</option>
+      {s.options.map((o) => <option value={o}>{o}</option>)}
+    </select>
+  ))}
+  <span class="count" data-filter-count={tableId}></span>
+</div>
+<script define:vars={{ tableId }}>
+  (() => {
+    const input = document.querySelector(`[data-filter-input="${tableId}"]`);
+    const selects = [...document.querySelectorAll(`[data-filter-select="${tableId}"]`)];
+    const count = document.querySelector(`[data-filter-count="${tableId}"]`);
+    const table = document.getElementById(tableId);
+    if (!table || !input) return;
+    const rows = [...table.querySelectorAll('tbody tr')];
+    function apply() {
+      const q = input.value.trim().toLowerCase();
+      const sel = selects.map((s) => ({ col: s.dataset.col, val: s.value }));
+      let visible = 0;
+      for (const r of rows) {
+        const text = r.innerText.toLowerCase();
+        let ok = !q || text.includes(q);
+        for (const { col, val } of sel) {
+          if (val && r.dataset[col] !== val) { ok = false; break; }
+        }
+        r.dataset.hidden = ok ? 'false' : 'true';
+        if (ok) visible++;
+      }
+      if (count) count.textContent = `${visible} / ${rows.length} shown`;
+    }
+    input.addEventListener('input', apply);
+    selects.forEach((s) => s.addEventListener('change', apply));
+    apply();
+  })();
+</script>

@@ -1,0 +1,1282 @@
+{
+  "columns": [
+    "Steering wheel (Handwheel)",
+    "Steering column",
+    "Rack & Pinion",
+    "Tie rod",
+    "Wormgear",
+    "Torsion bar torque sensor",
+    "Motor angle sensor",
+    "Turns-counter",
+    "ECU temperature monitoring component",
+    "Battery voltage monitoring component",
+    "Bridge voltage monitoring component",
+    "Motor current monitoring component",
+    "Motor Assembly",
+    "Hardware",
+    "Software",
+    "Wiring Harness (System Level)",
+    "Wiring Harness (Vehicle Level)"
+  ],
+  "rows": [
+    {
+      "group": "Outside System Boundary",
+      "element": "Steering wheel (Handwheel)",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "connected to"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "position can be determined from"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "position can determined from"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Steering column",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "connected with"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "connected to"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "translates torque at handwheel to"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "Within System Boundary",
+      "element": "Rack & Pinion",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "translates angular displacement of handwheel into linear displacement of rack"
+        },
+        {
+          "to": "Steering column",
+          "relation": "connected with"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "connected to"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "(pinion) connected with"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "Pinion rotation is sensed by"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Tie rod",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "connected with"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Wormgear",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "connected to pinion"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "connected with (helps couple torque generated at the electric motor to the rack)"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Torsion bar torque sensor",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "senses torque at"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "transmission done through; receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Motor angle sensor",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "helps determine handwheel position"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "senses motor angle"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "transmission done through; receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Turns-counter",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "helps determine handwheel position"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "senses pinion rotation"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "transmission done through; receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "ECU temperature monitoring component",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "helps estimate temperature of"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Battery voltage monitoring component",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Bridge voltage monitoring component",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Motor current monitoring component",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "senses current at"
+        },
+        {
+          "to": "Hardware",
+          "relation": "transmits data to"
+        },
+        {
+          "to": "Software",
+          "relation": "sensor data used by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Motor Assembly",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "assists in reducing handwheel torque"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "generated torque is coupled to the rack"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "connected to"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "angle sensed by"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "temperature sensed by"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "voltage sensed by"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "current sensed by"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "is operated by"
+        },
+        {
+          "to": "Software",
+          "relation": "is operated by"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives power supply through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Hardware",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "receives data from"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "receives data from"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "receives data from"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "receives data from"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "receives data from"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "receives data from"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "operates"
+        },
+        {
+          "to": "Hardware",
+          "relation": "-"
+        },
+        {
+          "to": "Software",
+          "relation": "executes"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "receives data through"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "receives vehicle power supply through; transmits system health to vehicle through; receives vehicle data  through"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Software",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "uses data from"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "uses data from"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "uses data from"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "uses data from"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "uses data from"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "uses data from"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "operates"
+        },
+        {
+          "to": "Hardware",
+          "relation": "runs on"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "element": "Wiring Harness (System Level)",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "establishes a data transmission interface for; supplies power to"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "establishes a data transmission interface for; supplies power to"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "establishes a data transmission interface for; supplies power to"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "supplies power supply to"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "supplies power supply to"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": "supplies power supply to"
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "supplies power supply to"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "supplies power supply to"
+        },
+        {
+          "to": "Hardware",
+          "relation": "establishes a data reception interface at"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    },
+    {
+      "group": "Outside System Boundary",
+      "element": "Wiring Harness (Vehicle Level)",
+      "cells": [
+        {
+          "to": "Steering wheel (Handwheel)",
+          "relation": "-"
+        },
+        {
+          "to": "Steering column",
+          "relation": "-"
+        },
+        {
+          "to": "Rack & Pinion",
+          "relation": "-"
+        },
+        {
+          "to": "Tie rod",
+          "relation": "-"
+        },
+        {
+          "to": "Wormgear",
+          "relation": "-"
+        },
+        {
+          "to": "Torsion bar torque sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Motor angle sensor",
+          "relation": "-"
+        },
+        {
+          "to": "Turns-counter",
+          "relation": "-"
+        },
+        {
+          "to": "ECU temperature monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Battery voltage monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Bridge voltage monitoring component",
+          "relation": ""
+        },
+        {
+          "to": "Motor current monitoring component",
+          "relation": "-"
+        },
+        {
+          "to": "Motor Assembly",
+          "relation": "-"
+        },
+        {
+          "to": "Hardware",
+          "relation": "supplies vehicle power supply to; establishes a data reception interface from vehicle to; establishes a vehicle transmission interface to vehicle from"
+        },
+        {
+          "to": "Software",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (System Level)",
+          "relation": "-"
+        },
+        {
+          "to": "Wiring Harness (Vehicle Level)",
+          "relation": "-"
+        }
+      ]
+    }
+  ],
+  "note": "Interactions are shown from Rows to Columns. 'Connected to' = downstream, 'Connected with' = upstream."
+}

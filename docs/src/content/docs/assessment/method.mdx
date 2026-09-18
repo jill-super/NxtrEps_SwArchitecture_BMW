@@ -1,0 +1,38 @@
+---
+title: Assessment Method & KPPs
+description: Six-step assessment method, key performance parameters and selection criteria.
+---
+import assessment from '../../../data/assessment.json';
+import FilterBar from '../../../components/FilterBar.astro';
+
+Source: `Architecture Assessment` sheet (Steps 1–5 on this page, Step 6 on Scoring).
+
+## Steps
+
+1. **Identify system key performance parameters** — the 9 KPPs below.
+2. **Identify possible system variations** — torque sensor, HW position sensor, probe housing, motor position sensor, motor assembly, hardware (MCU, ECU count, inverter, PWM), coupling position.
+3. **Identify affected parameters** — resolution, accuracy, size, redundancy, FIT rate, cost impact, operating conditions, comfort, torque output.
+4. **Map affected → KPPs** and 5. **define selection criteria** with weightages (table below; Safety has weight 2, all others 1).
+
+## Key performance parameters
+
+{assessment.kpps.map((k, i) => `${i + 1}. ${k}`).join('\n')}
+
+## Selection criteria
+
+<FilterBar tableId="crit-table" placeholder="Filter criteria…" />
+
+<table id="crit-table" class="eps-table">
+<thead><tr><th>#</th><th>KPP</th><th>Related parameters</th><th>Selection criterion</th><th>Weight</th></tr></thead>
+<tbody>
+{assessment.criteria.map((c) => (
+  <tr>
+    <td>{c.no}</td>
+    <td>{c.kpp}</td>
+    <td>{c.related}</td>
+    <td>{c.selection}</td>
+    <td><span class="badge fn">{c.weightage}</span></td>
+  </tr>
+))}
+</tbody>
+</table>

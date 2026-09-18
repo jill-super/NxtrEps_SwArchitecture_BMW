@@ -1,0 +1,66 @@
+---
+title: Source Workbook
+description: Provenance, sheet inventory and regeneration instructions.
+---
+
+All content on this site is extracted from `Design/Bmw_5441_Design_SysArch_A.xlsx`
+(11 visible sheets + 1 hidden scratch sheet). The workbook itself is not shipped
+with the site; the extracted JSON in `docs/src/data/` is the build input.
+
+## Sheet inventory
+
+| Sheet | Docs page(s) |
+|---|---|
+| Rev History | Revision History |
+| Release Tracker | Release Tracker |
+| System Architecture_Level 1 | Architecture › Level 1 (+ diagrams image8–9) |
+| System Architecture_Level 2 | Architecture › Level 2 (+ diagrams image10–14) |
+| Functional Decomposition View | Architecture › Functional Decomposition |
+| System Safety Architecture View | Architecture › Safety View (+ image15) |
+| Description | Design Details › Function Descriptions |
+| Interactions | Design Details › Interactions Matrix |
+| Identified External Interfaces | Design Details › External Interfaces |
+| System States | Design Details › System States (+ image16) |
+| Architecture Assessment | Assessment › Method, Scoring |
+| Sheet1 (hidden) | Ignored — single scratch cell |
+
+## Regenerate
+
+```sh
+cd docs
+python3 ./scripts/extract_xlsx.py   # needs: pip install openpyxl
+npm run build
+```
+
+Diagram conversion (workbook `xl/media/*.emf` → `docs/public/diagrams/*.svg|png`)
+was done once with Inkscape; re-run only if the drawings change:
+
+```sh
+inkscape input.emf --export-type=svg --export-filename=output.svg
+inkscape input.emf --export-type=png --export-dpi=200 --export-filename=output.png
+```
+
+Inkscape's EMF export omits `viewBox`, which responsive pages need — add it from
+the `width/height` in mm (1 mm = 96/25.4 px):
+
+```sh
+python3 -c "
+import re
+MM2PX = 96/25.4
+txt = open('output.svg').read()
+tag = re.search(r'<svg[^>]*>', txt).group(0)
+w = float(re.search(r'width=\"([\d.]+)mm\"', tag).group(1)) * MM2PX
+h = float(re.search(r'height=\"([\d.]+)mm\"', tag).group(1)) * MM2PX
+open('output.svg','w').write(txt.replace('<svg', f'<svg viewBox=\"0 0 {w:.2f} {h:.2f}\"', 1))
+"
+```
+
+## Deploy
+
+Fork-agnostic, no workflow committed. Build with:
+
+```sh
+SITE_URL=https://<user>.github.io BASE_PATH=/<repo>/ npm run build
+```
+
+then publish `docs/dist` with hosting of your choice.

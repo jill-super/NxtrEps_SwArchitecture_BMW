@@ -1,0 +1,125 @@
+{
+  "note": " Note: \n1. This release tracker helps track the version of released document\n2. This release tracker should be filled out after every Release/Partial Release event of the document\n3. This release tracker helps check if all stakeholders are aware of a new version release of the document",
+  "header": [
+    "",
+    "Type of Release",
+    "Version",
+    "Identified Stakeholders",
+    "",
+    "Has the stakeholder been notofied about the workproduct release?",
+    "Notification Date",
+    "Notification Method"
+  ],
+  "rows": [
+    [
+      "",
+      "Partial Release",
+      "0.1.0",
+      "Customer Requirements Engineer",
+      "Heidi Kowalski",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "System Requirements Engineer",
+      "Heidi Kowalski",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Software Requirements Engineer",
+      "Pradhnya Ingole",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Customer Systems Engineer",
+      "Adam Kohler",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "FMEA Personnel",
+      "Diane Hill",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Software Architect",
+      "-",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Powerpack Architecture Team",
+      "Praveen Yellapragada",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Control Module Architecture Team",
+      "Sai Desu",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Electronic Hardware Design Team",
+      "Spencer Hill",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Safety Team",
+      "Scott Millsap; Karthikeya Pitchai",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Verfication Team",
+      "Kartik Srinivasan",
+      "Yes",
+      "2017-08-21 00:00:00",
+      "Email"
+    ]
+  ]
+}

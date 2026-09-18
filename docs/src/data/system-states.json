@@ -1,0 +1,219 @@
+{
+  "states": [
+    {
+      "id": "S1",
+      "name": "OFF",
+      "behaviour": [
+        "System draws minimum power from the vehicle battery ( <xx mA)",
+        "System waits for receiving the wake up signal (Ignition or CAN communication)",
+        "System has no communication with the vehicle"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Initialization",
+      "behaviour": [
+        "System recieves the wake up signal (Ignition or CAN communication)",
+        "System draws power from the vehicle battery",
+        "System performs hardware power up",
+        "System communicates with the vehicle"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Enable",
+      "behaviour": [
+        "System draws power supply from the vehicle battery",
+        "System assists in reducing the steering effort",
+        "System assists in damping undesirable forces acting on the steering system",
+        "System assists by executing vehicle commands",
+        "System assists in both reducing the steering effort and also executes vehicle commands at the sametime",
+        "System assists for Start/Stop (MSA) features",
+        "System communicates with the vehicle"
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Disable",
+      "behaviour": [
+        "System draws power supply from the vehicle battery",
+        "System does not provide assist",
+        "System communicates with the vehicle"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "from": "S1 OFF",
+      "condition": "C1",
+      "to": "S2 Initialization"
+    },
+    {
+      "from": "S1 OFF",
+      "condition": "C9",
+      "to": "S1 OFF"
+    },
+    {
+      "from": "S2 Initialization",
+      "condition": "C2",
+      "to": "S3 Enable"
+    },
+    {
+      "from": "S2 Initialization",
+      "condition": "C5",
+      "to": "S4 Disable"
+    },
+    {
+      "from": "S2 Initialization",
+      "condition": "C7",
+      "to": "S1 OFF"
+    },
+    {
+      "from": "S2 Initialization",
+      "condition": "C10",
+      "to": "S2 Initialization"
+    },
+    {
+      "from": "S3 Enable",
+      "condition": "C3",
+      "to": "S4 Disable"
+    },
+    {
+      "from": "S3 Enable",
+      "condition": "C8",
+      "to": "S1 OFF"
+    },
+    {
+      "from": "S3 Enable",
+      "condition": "C11",
+      "to": "S3 Enable"
+    },
+    {
+      "from": "S4 Disable",
+      "condition": "C4",
+      "to": "S1 OFF"
+    },
+    {
+      "from": "S4 Disable",
+      "condition": "C6",
+      "to": "S2 Initialization"
+    },
+    {
+      "from": "S4 Disable",
+      "condition": "C12",
+      "to": "S4 Disable"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "C1",
+      "definition": [
+        "Reception of wake up signal (Ignition or CAN communication)"
+      ]
+    },
+    {
+      "id": "C2",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "System hardware power up complete [AND]",
+        "No fault identified (OR) Fault identified is non-safety critical"
+      ]
+    },
+    {
+      "id": "C3",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "Safety critical fault identified"
+      ]
+    },
+    {
+      "id": "C4",
+      "definition": [
+        "No wake up signal (Ignition or CAN communication) [OR]",
+        "Reception of a request for immediate transition to OFF"
+      ]
+    },
+    {
+      "id": "C5",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "Safety critical fault identified"
+      ]
+    },
+    {
+      "id": "C6",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "Recovery from safety critical fault [AND]",
+        "No fault identified (OR) Fault identified is non-safety critical"
+      ]
+    },
+    {
+      "id": "C7",
+      "definition": [
+        "Reception of a request for immediate transition to OFF [OR]",
+        "No wake up signal (Ignition or CAN communication)"
+      ]
+    },
+    {
+      "id": "C8",
+      "definition": [
+        "Reception of a request for immediate transition to OFF [OR]",
+        "No wake up signal (Ignition or CAN communication)"
+      ]
+    },
+    {
+      "id": "C9",
+      "definition": [
+        "No wake up signal (Ignition or CAN communication)"
+      ]
+    },
+    {
+      "id": "C10",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "System hardware power up incomplete"
+      ]
+    },
+    {
+      "id": "C11",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "No fault identified (OR) Fault identified is non-safety critical"
+      ]
+    },
+    {
+      "id": "C12",
+      "definition": [
+        "Continued reception of wake up signal (Ignition or CAN communication) [AND]",
+        "Safety critical fault not recovered"
+      ]
+    }
+  ],
+  "faults": [
+    {
+      "id": "F1",
+      "definition": "Immideate shutdown fault",
+      "response": "* Most severe type of response\n* Immediate removal of assist\n* Competent control of the motor cannot be assured",
+      "type": "Safety Critical"
+    },
+    {
+      "id": "F2",
+      "definition": "Controlled shutdown fault (Faults in the torque path)",
+      "response": "* The torque path is disconnected from the operator and the motor is commutated with the motor velocity command\n* Output is ramped out as a function of motor velocity and time",
+      "type": "Safety Critical"
+    },
+    {
+      "id": "F3",
+      "definition": "Information only fault (Performance or information only related faults)",
+      "response": "* System continues to operate and certain features are disabled or operated in a reduced performance mode",
+      "type": "Non-safety Critical"
+    },
+    {
+      "id": "Rest",
+      "definition": "Time based shutdown (Indexed Ramp)",
+      "response": "* System ramps out assist as a function of time",
+      "type": "Safety Critical"
+    }
+  ]
+}

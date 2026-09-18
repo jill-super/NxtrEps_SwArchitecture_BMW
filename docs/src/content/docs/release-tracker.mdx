@@ -1,0 +1,19 @@
+---
+title: Release Tracker
+description: Release / partial-release stakeholder notifications.
+---
+import rel from '../../data/release-tracker.json';
+import FilterBar from '../../components/FilterBar.astro';
+
+{rel.note}
+
+<FilterBar tableId="rel-table" placeholder="Filter stakeholders…" />
+
+<table id="rel-table" class="eps-table">
+<thead><tr>{rel.header.map((h) => <th>{h}</th>)}</tr></thead>
+<tbody>
+{rel.rows.map((r) => (
+  <tr>{rel.header.map((_, i) => <td>{r[i] ?? ''}</td>)}</tr>
+))}
+</tbody>
+</table>
